@@ -15,3 +15,15 @@ _Avoid_: "play tonight", session picker
 **Collection**:
 The set of games a person owns; the candidate pool for Play mode and the exclusion list for Buy mode.
 _Avoid_: shelf, library, owned games
+
+**Catalogue**:
+The set of games the app knows about, curated and owned by us; every recommendation and every Collection entry refers to a Game in it.
+_Avoid_: database, game list
+
+**Game**:
+One entry in the Catalogue: a published base game with its facts (players, play time, minimum age) and our own descriptions (Complexity, tags). Expansions are not Games.
+_Avoid_: title, item, product
+
+**Complexity**:
+How hard a Game is to learn and play, on our own 1–5 scale.
+_Avoid_: weight, difficulty
