@@ -56,6 +56,14 @@ _Avoid_: onboarding, quiz, survey
 What a Member likes and dislikes in games, as learned from the Interview and later ratings. Belongs to one Member.
 _Avoid_: profile, preferences
 
+**Constraint**:
+A hard limit on which Games may be recommended right now (player count, play time, Complexity, setup effort, youngest Player's age). Unlike Taste, Constraints describe the occasion, not the person, and change from one session to the next.
+_Avoid_: filter (that's the UI control), preference
+
+**Usual Group Size**:
+The group size a Member says they usually play with, asked once in the Interview and used as the default player-count Constraint.
+_Avoid_: default players
+
 **Gateway Game**:
 A well-known, easy-to-learn Game used in the Interview to probe a newcomer's Taste ("played it? liked it?").
 _Avoid_: starter game, intro game
