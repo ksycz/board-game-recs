@@ -24,6 +24,14 @@ _Avoid_: database, game list
 One entry in the Catalogue: a published base game with its facts (players, play time, minimum age) and our own descriptions (Complexity, tags). Any genre counts (card, party, children's, abstract, wargame); expansions are not Games; editions share one Game unless rules or player count differ substantially.
 _Avoid_: title, item, product
 
+**Player Range**:
+The player counts a Game supports according to its box, e.g. 1–4. Solo means a Player Range that includes 1.
+_Avoid_: player count (ambiguous)
+
+**Best Player Count**:
+The counts within the Player Range at which a Game actually plays well, e.g. 2–3. Recommendations prefer it; other counts in the range come with a warning.
+_Avoid_: recommended players, sweet spot
+
 **Complexity**:
 How hard a Game is to learn and play, on our own 1–5 scale.
 _Avoid_: weight, difficulty
