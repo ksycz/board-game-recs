@@ -27,3 +27,17 @@ _Avoid_: title, item, product
 **Complexity**:
 How hard a Game is to learn and play, on our own 1–5 scale.
 _Avoid_: weight, difficulty
+
+## People
+
+**Member**:
+A person who can sign in to the app (by an emailed sign-in link) and has their own Collection and taste. While the app is personal, only Invited emails can become Members.
+_Avoid_: user, account, customer
+
+**Invite**:
+An email address a Member has allowed to sign in.
+_Avoid_: whitelist, allow-list
+
+**Player**:
+Anyone sitting at the table for a game, whether or not they are a Member.
+_Avoid_: participant, guest
