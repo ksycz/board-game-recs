@@ -21,7 +21,7 @@ The set of games the app knows about, curated and owned by us; every recommendat
 _Avoid_: database, game list
 
 **Game**:
-One entry in the Catalogue: a published base game with its facts (players, play time, minimum age) and our own descriptions (Complexity, tags). Expansions are not Games.
+One entry in the Catalogue: a published base game with its facts (players, play time, minimum age) and our own descriptions (Complexity, tags). Any genre counts (card, party, children's, abstract, wargame); expansions are not Games; editions share one Game unless rules or player count differ substantially.
 _Avoid_: title, item, product
 
 **Complexity**:
