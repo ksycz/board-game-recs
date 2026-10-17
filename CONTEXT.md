@@ -35,8 +35,12 @@ A person who can sign in to the app (by an emailed sign-in link) and has their o
 _Avoid_: user, account, customer
 
 **Invite**:
-An email address a Member has allowed to sign in.
+An email address the Admin has allowed to sign in. Invites exist only while the app is personal.
 _Avoid_: whitelist, allow-list
+
+**Admin**:
+The Member who manages Invites and reviews Games that Members add to the Catalogue.
+_Avoid_: owner, moderator, superuser
 
 **Player**:
 Anyone sitting at the table for a game, whether or not they are a Member.
