@@ -45,3 +45,17 @@ _Avoid_: owner, moderator, superuser
 **Player**:
 Anyone sitting at the table for a game, whether or not they are a Member.
 _Avoid_: participant, guest
+
+## Taste
+
+**Interview**:
+The questions a new Member answers so the app can learn their Taste. It adapts: Members who can name enough Games they love and dislike skip the Gateway grid and mood questions.
+_Avoid_: onboarding, quiz, survey
+
+**Taste**:
+What a Member likes and dislikes in games, as learned from the Interview and later ratings. Belongs to one Member.
+_Avoid_: profile, preferences
+
+**Gateway Game**:
+A well-known, easy-to-learn Game used in the Interview to probe a newcomer's Taste ("played it? liked it?").
+_Avoid_: starter game, intro game
