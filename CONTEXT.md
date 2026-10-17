@@ -59,3 +59,11 @@ _Avoid_: profile, preferences
 **Gateway Game**:
 A well-known, easy-to-learn Game used in the Interview to probe a newcomer's Taste ("played it? liked it?").
 _Avoid_: starter game, intro game
+
+**Tag**:
+A named trait from our fixed vocabulary (feel, interaction, mechanic, theme…) that describes a Game or a Reason. The only language the recommender understands.
+_Avoid_: label, keyword, feature
+
+**Reason**:
+A Member's own explanation of why they love or dislike a particular Game: optional free text plus the Tags derived from it, which the Member can edit.
+_Avoid_: comment, review, note

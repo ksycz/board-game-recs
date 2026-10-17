@@ -1,0 +1,3 @@
+# AI only turns Reasons into Tags; it never picks Games
+
+A Member can explain in free text why they love or dislike a Game; an AI model suggests Tags from that text, and the Member sees and can edit them. Recommendations themselves are computed from Tags by our own logic, not by asking an AI model which games to suggest. We chose this so results are explainable ("because you like calm, solitary games"), testable, cheap and consistent, and so the Member always controls what the app believes about them. Asking a model to recommend directly was rejected: it can suggest games outside the Catalogue, is hard to explain and varies between runs.
