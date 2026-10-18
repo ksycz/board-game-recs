@@ -32,6 +32,14 @@ _Avoid_: player count (ambiguous)
 The counts within the Player Range at which a Game actually plays well, e.g. 2–3. Recommendations prefer it; other counts in the range come with a warning.
 _Avoid_: recommended players, sweet spot
 
+**Setup Effort**:
+How much work it takes to get a Game ready to play: quick (open and play, under ~5 min), medium, or long (sorting, many decks, board building). Our own rough judgement.
+_Avoid_: setup time
+
+**Table Space**:
+How much table a Game needs when laid out: small, medium or large.
+_Avoid_: footprint, size
+
 **Complexity**:
 How hard a Game is to learn and play, on our own 1–5 scale.
 _Avoid_: weight, difficulty
