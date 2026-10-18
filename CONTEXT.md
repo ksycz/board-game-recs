@@ -109,9 +109,16 @@ A well-known, easy-to-learn Game used in the Interview to probe a newcomer's Tas
 _Avoid_: starter game, intro game
 
 **Tag**:
-A named trait from our fixed vocabulary (feel, interaction, mechanic, theme…) that describes a Game or a Reason. The only language the recommender understands.
+A named trait from the Tag Vocabulary that describes a Game or a Reason. The only language the recommender understands.
 _Avoid_: label, keyword, feature
 
+**Tag Vocabulary**:
+The Admin-owned list of all Tags, grouped into Feel, Interaction, Mechanics, Theme and Pace. Members cannot create Tags.
+_Avoid_: taxonomy, tag list
+
+**Unmatched Phrase**:
+Part of a Reason that no existing Tag covers, queued for the Admin to consider as a new Tag. The full Reason text is always kept so a new Tag can be applied to it later.
+_Avoid_: unknown tag, suggestion
 **Reason**:
 A Member's own explanation behind a Verdict or a Not Interested, private to that Member (other Members see only the love / fine / dislike): optional free text plus the Tags derived from it, which the Member can edit.
 _Avoid_: comment, review, note
