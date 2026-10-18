@@ -93,7 +93,7 @@ The group size a Member says they usually play with, asked once in the Interview
 _Avoid_: default players
 
 **Verdict**:
-A Member's judgement of one Game: love, fine or dislike, optionally with a Reason. Interview answers, ratings after playing and ratings of a bought Game are all Verdicts. "Fine" means played without strong feeling.
+A Member's judgement of one Game: love, fine or dislike, optionally with a Reason. A Member has at most one Verdict per Game; a new one replaces the old. Interview answers, ratings after playing and ratings of a bought Game are all Verdicts. "Fine" means played without strong feeling.
 _Avoid_: rating, score, review
 
 **Not Interested**:
