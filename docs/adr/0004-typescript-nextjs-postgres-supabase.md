@@ -1,3 +1,7 @@
+---
+status: amended by ADR 0010 (Neon instead of Supabase)
+---
+
 # TypeScript, Next.js, Postgres on Supabase
 
 Claude writes most of the code and the Admin, an SDET working in Cypress, reviews and tests it, so we chose a stack she reads fluently: TypeScript end to end, Next.js for the website, Postgres hosted on Supabase (which also provides emailed sign-in links), deployed on Vercel. The Supabase project is in an EU region because Members are in the EU and their emails, Collections and Reasons are personal data. All are free at friends-only scale. The Fit and Group Fit logic live in plain TypeScript functions with no framework or database dependency, so they can be unit-tested and evaluated against fixtures without running the site. Python stacks were considered and rejected only because the reviewer's daily language is TypeScript/JavaScript.

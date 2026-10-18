@@ -52,7 +52,7 @@ The project has two goals of equal weight:
 
 ### Members' data (EU rules)
 
-- **Where it's stored:** all data lives in a Supabase project in an EU region.
+- **Where it's stored:** all data lives in a Neon Postgres database in an EU region.
 - **What is collected:** only what the app needs (email, Collection, Verdicts, Reasons, Plays). No tracking or analytics cookies.
 - **Deleting:** a Member can delete their account, which removes their Collection, Verdicts, Reasons and Invite. Plays they took part in keep the Game and date but drop their name.
 - **Exporting:** a Member can download their own data as a file.
@@ -214,7 +214,8 @@ Every Recommendation carries an **Explanation** built from the factors that prod
 ## 9. Technology
 
 - **Code:** TypeScript and Next.js.
-- **Data and sign-in:** Postgres on Supabase, which also sends the sign-in emails.
+- **Data:** Postgres on Neon, in an EU region ([ADR 0010](adr/0010-neon-instead-of-supabase.md)).
+- **Sign-in:** Better Auth (Neon's managed version or our own), with an email-sending service for the sign-in links. Chosen at the start of milestone 2.
 - **Hosting:** Vercel.
 - **Structure:** Fit, Group Fit, Constraints, Relaxation and Explanation are plain TypeScript functions, with no dependency on the framework or the database.
 

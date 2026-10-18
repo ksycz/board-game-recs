@@ -36,7 +36,7 @@ It is also a **testing portfolio project**. The test suite, test documents and t
 
   One journey is mirrored in both Cypress and Playwright, with a measured comparison.
 - **Explainable recommendations.** The AI only turns people's own words into Tags. The ranking is plain, tested TypeScript ([ADR 0002](docs/adr/0002-ai-translates-reasons-never-recommends.md)).
-- **Stack:** TypeScript, Next.js, Postgres on Supabase (EU region), Vercel ([ADR 0004](docs/adr/0004-typescript-nextjs-postgres-supabase.md)).
+- **Stack:** TypeScript 7, Next.js, Postgres on Neon (EU region), Vercel ([ADR 0004](docs/adr/0004-typescript-nextjs-postgres-supabase.md), [ADR 0010](docs/adr/0010-neon-instead-of-supabase.md)).
 
 ## Read more
 
