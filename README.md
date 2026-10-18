@@ -53,3 +53,7 @@ npm run check   # type-check, lint, tests
 ```
 
 Requires Node 22+.
+
+## Licence
+
+[MIT](LICENSE).
