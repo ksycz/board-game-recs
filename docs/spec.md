@@ -103,7 +103,7 @@ The project has two goals of equal weight:
    - Picking Tags by hand is always possible.
 2. **Disliked Games:** optional, up to 3, each with an optional Reason.
 3. **If fewer than 2 loved Games are named,** the Member sees a grid of ~15 Gateway Games, each marked played → love / fine / dislike, and 3–4 plain-language mood questions:
-   - chatty and social vs quiet and thinky
+   - "Do you prefer games full of talking and laughing, or games where everyone quietly focuses on their own plan?"
    - luck vs planning
    - competitive vs cooperative
    - short vs long
