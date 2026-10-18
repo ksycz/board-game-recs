@@ -1,0 +1,3 @@
+# AI behind one swappable tagger, under a hard budget
+
+All AI calls go through a single tagger module (Claude API today), so the provider can be swapped without touching the rest of the code. The Admin has only a small prepaid credit that must never be exceeded, so the budget is a hard limit, not a target: the app counts its own spend and stops calling the AI below the remaining credit, and the provider account has auto-reload turned off as a second safeguard. When the AI is unavailable or the cap is reached, Members pick Tags by hand and Unmatched Phrases simply wait. To spend credit only where it matters, the initial Catalogue drafts are produced during development (not by the running app), results are cached, and only anonymised Reason text is ever sent.
