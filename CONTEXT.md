@@ -138,6 +138,10 @@ _Avoid_: group, party, session
 The Games physically available for one Play-mode request: by default the Collections of every Member at the Table, narrowed to the Collections or individual Games actually present. Play mode recommends only from the Shelf.
 _Avoid_: available games, pool
 
+**Play**:
+A record that a Table played a Game on a date. Recent Plays push a Game down the ranking; a loved Game with no Play for months is pushed up. A Play is the moment to ask each Member at the Table for a Verdict.
+_Avoid_: session, game night, log entry
+
 **Group Fit**:
 How well a Game suits a whole Table: any Game that a Member at the Table dislikes is excluded (unless Relaxed); among the rest, the average of the Members' Fits.
 _Avoid_: combined score, consensus
