@@ -1,0 +1,3 @@
+# Testing: Vitest, property-based rules, reference Members, Playwright
+
+We test at three levels: Vitest unit tests for Fit and Group Fit; property-based tests (fast-check) that generate random Collections and Tables to prove the rules always hold (Hard Constraints never broken, a dislike at the Table excludes unless Relaxed, every Recommendation has an Explanation); and a suite of reference Members, hand-written Tastes with expected outcomes, that shows whether a change to Fit makes recommendations better or worse. End-to-end journeys use Playwright, not Cypress, even though the Admin works in Cypress daily: she chose it deliberately to learn it, so nobody should "fix" this back to Cypress.
