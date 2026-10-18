@@ -1,0 +1,4 @@
+# Packages allowed to run install scripts. pnpm blocks all others (and fails CI) by default.
+# esbuild: used by Vitest; its script only checks that the right platform binary is installed.
+allowBuilds:
+  esbuild: true

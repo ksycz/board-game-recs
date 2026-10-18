@@ -1,0 +1,5 @@
+node_modules/
+coverage/
+.env*
+# Personal data never goes into this public repo (see docs/spec.md, Test data)
+private/
