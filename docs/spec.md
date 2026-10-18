@@ -50,6 +50,13 @@ The project has two goals of equal weight:
   - Verdicts: the love / fine / dislike part is visible to all Members.
   - Reasons: private to the Member who wrote them.
 
+### Members' data (EU rules)
+
+- **Where it's stored:** all data lives in a Supabase project in an EU region.
+- **What is collected:** only what the app needs (email, Collection, Verdicts, Reasons, Plays). No tracking or analytics cookies.
+- **Deleting:** a Member can delete their account, which removes their Collection, Verdicts, Reasons and Invite. Plays they took part in keep the Game and date but drop their name.
+- **Exporting:** a Member can download their own data as a file.
+
 ## 4. Catalogue
 
 ### Fields for each Game
@@ -66,6 +73,10 @@ The project has two goals of equal weight:
 | Table Space | small / medium / large |
 | Tags | from the Tag Vocabulary |
 | BGG ID | optional, for later matching |
+
+### No box images in v1
+
+Box art and publisher photos are copyrighted, so v1 shows no images of Games. Images can come later from a licensed source, with publishers' permission, or from photos Members take of their own copies.
 
 ### What counts as a Game
 
@@ -225,6 +236,7 @@ Every Recommendation carries an **Explanation** built from the factors that prod
 | Quality | Vitest + reference Members | expected outcomes for hand-written Tastes (e.g. "loves Cascadia and Azul → Calico in the top 5, Twilight Imperium absent") |
 | Component | Cypress | Interview steps, Tag chips, Recommendation card |
 | End to end | Playwright | sign-in → Interview → Buy results; Table → Shelf → Play → logging a Play → Verdict prompt |
+| Accessibility | axe-core in Playwright | every journey page has no serious or critical axe violations; keyboard-only use of the Interview and Play mode |
 | Comparison | Cypress **and** Playwright | the Interview → Buy results journey only, mirrored in both and measured |
 | AI tagger | Vitest with recorded responses | output is always valid Tags; the fallback works when the AI is down or the budget is hit |
 
