@@ -109,3 +109,11 @@ _Avoid_: suggestion, result, pick
 **Explanation**:
 The human-readable reason shown with a Recommendation, built from the Tags and Similarities that produced its Fit (e.g. "like Cascadia: calm, tile-laying, best at 2").
 _Avoid_: rationale, why-text
+
+**Table**:
+The Players taking part in one Play-mode request: the Member asking, any other Members they select, and a count of Players who are not Members.
+_Avoid_: group, party, session
+
+**Group Fit**:
+How well a Game suits a whole Table: any Game that a Member at the Table dislikes is excluded; among the rest, the average of the Members' Fits.
+_Avoid_: combined score, consensus
