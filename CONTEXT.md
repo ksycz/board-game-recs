@@ -69,7 +69,7 @@ The questions a new Member answers so the app can learn their Taste. It adapts: 
 _Avoid_: onboarding, quiz, survey
 
 **Taste**:
-What a Member likes and dislikes in games, as learned from the Interview and later ratings. Belongs to one Member.
+What a Member likes and dislikes in games: the sum of their Verdicts. Belongs to one Member.
 _Avoid_: profile, preferences
 
 **Constraint**:
@@ -92,6 +92,14 @@ _Avoid_: fallback, fuzzy match
 The group size a Member says they usually play with, asked once in the Interview and used as the default player-count Constraint.
 _Avoid_: default players
 
+**Verdict**:
+A Member's judgement of one Game: love, fine or dislike, optionally with a Reason. Interview answers, ratings after playing and ratings of a bought Game are all Verdicts. "Fine" means played without strong feeling.
+_Avoid_: rating, score, review
+
+**Not Interested**:
+A Member hiding a Recommended Game they have not played. It changes their Taste only if they give a Reason.
+_Avoid_: dismiss, skip, thumbs down
+
 **Gateway Game**:
 A well-known, easy-to-learn Game used in the Interview to probe a newcomer's Taste ("played it? liked it?").
 _Avoid_: starter game, intro game
@@ -101,7 +109,7 @@ A named trait from our fixed vocabulary (feel, interaction, mechanic, theme…) 
 _Avoid_: label, keyword, feature
 
 **Reason**:
-A Member's own explanation of why they love or dislike a particular Game: optional free text plus the Tags derived from it, which the Member can edit.
+A Member's own explanation behind a Verdict or a Not Interested: optional free text plus the Tags derived from it, which the Member can edit.
 _Avoid_: comment, review, note
 
 ## Recommending
