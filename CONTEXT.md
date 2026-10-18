@@ -13,8 +13,8 @@ Recommending a game from the person's own collection for a specific session, dri
 _Avoid_: "play tonight", session picker
 
 **Collection**:
-The set of games a person owns; the candidate pool for Play mode and the exclusion list for Buy mode.
-_Avoid_: shelf, library, owned games
+The set of Games one Member owns. Buy mode never recommends Games already in it (except loved-but-unowned ones, which aren't in it by definition).
+_Avoid_: library, owned games (and not Shelf, which is what is present tonight)
 
 **Catalogue**:
 The set of games the app knows about, curated and owned by us; every recommendation and every Collection entry refers to a Game in it.
@@ -133,6 +133,10 @@ _Avoid_: rationale, why-text
 **Table**:
 The Players taking part in one Play-mode request: the Member asking, any other Members they select, and a count of Players who are not Members.
 _Avoid_: group, party, session
+
+**Shelf**:
+The Games physically available for one Play-mode request: by default the Collections of every Member at the Table, narrowed to the Collections or individual Games actually present. Play mode recommends only from the Shelf.
+_Avoid_: available games, pool
 
 **Group Fit**:
 How well a Game suits a whole Table: any Game that a Member at the Table dislikes is excluded (unless Relaxed); among the rest, the average of the Members' Fits.
