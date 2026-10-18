@@ -22,7 +22,7 @@ It is also a **testing portfolio project**. The test suite, test documents and t
 
 ## How it's built
 
-- **Test-first, visibly.** Every rule and journey starts as a failing test that is reviewed and approved in a pull request *before* any implementation is written. Commits are labelled `red:`, `green:` and `refactor:`, and pull requests are never squash-merged, so the history shows the order. See [ADR 0007](docs/adr/0007-tdd-with-admin-approved-failing-tests.md).
+- **Test-first, visibly.** Every rule and journey starts as a failing test that is reviewed and approved in a pull request *before* any implementation is written. Commits are labelled `red:`, `green:` and `refactor:`, and pull requests are never squash-merged, so the history shows the order. Pull requests are merged with merge commits only, so the test-first history stays checkable. See [ADR 0007](docs/adr/0007-tdd-with-admin-approved-failing-tests.md) and [ADR 0008](docs/adr/0008-merge-commits-only.md).
 - **Tested at every level** ([ADR 0005](docs/adr/0005-testing-strategy-playwright.md)):
 
   | Level | Tool |
