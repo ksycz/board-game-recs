@@ -242,6 +242,10 @@ Every Recommendation carries an **Explanation** built from the factors that prod
 - **Playwright and Cypress reports** are published to GitHub Pages.
 - **Status badges** appear in the README.
 
+### Prototypes
+
+Prototypes live in `prototypes/`. Each is one page with fake data and no sign-in or database, and is clearly labelled as throwaway. They are exempt from test-first development. Each has a note recording what was learned and what changed in the spec as a result.
+
 ### Test data
 
 The repository is public, so all test data is invented. Reference Members have made-up names and Tastes. No real Member's Collection, Verdicts, Reasons or email ever goes into the repo.
@@ -260,9 +264,11 @@ The repository is public, so all test data is invented. Reference Members have m
    - Built test-first, with no screens.
    - Exit: the reference Members suite is green and the Admin's self-test passes.
 2. **Buy mode.**
+   - Starts with an **Interview prototype**: a clickable mockup with fake data, tried on 1–2 friends, plus a short "what we learned" note.
    - Sign-in, Invites, Interview, Collection, Buy results, Verdicts, Not Interested, AI tagger with budget.
    - Exit: the Playwright and Cypress journeys are green; two friends use it.
 3. **Play mode.**
+   - Starts with a **Play-mode prototype** (pick the Table, narrow the Shelf, read the top 3 on a phone), used at one real game night, plus a "what we learned" note.
    - Table, Shelf, Group Fit, Relaxation, Plays, recency.
    - Exit: used at a real game night.
 4. **Portfolio polish.**
