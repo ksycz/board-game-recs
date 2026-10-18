@@ -91,3 +91,21 @@ _Avoid_: label, keyword, feature
 **Reason**:
 A Member's own explanation of why they love or dislike a particular Game: optional free text plus the Tags derived from it, which the Member can edit.
 _Avoid_: comment, review, note
+
+## Recommending
+
+**Fit**:
+How well a Game matches one Member's Taste: agreement with the Tags of their loved Reasons, disagreement with their disliked ones, and similarity to the Games they love.
+_Avoid_: score, match, relevance
+
+**Similarity**:
+How alike two Games are, judged by their Tags, Complexity and Best Player Count.
+_Avoid_: distance, closeness
+
+**Recommendation**:
+A Game the app suggests to a Member, together with the Explanation of why. Only Games that satisfy every Constraint can become Recommendations.
+_Avoid_: suggestion, result, pick
+
+**Explanation**:
+The human-readable reason shown with a Recommendation, built from the Tags and Similarities that produced its Fit (e.g. "like Cascadia: calm, tile-laying, best at 2").
+_Avoid_: rationale, why-text
