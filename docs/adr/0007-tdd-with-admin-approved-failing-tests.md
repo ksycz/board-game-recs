@@ -1,0 +1,5 @@
+# Test-driven development, with failing tests approved by the Admin
+
+The domain core (Fit, Group Fit, Constraints, Relaxation, Explanation) and every user journey are built test-first: Claude writes a failing test, the Admin reviews and approves it as the specification, and only then is the implementation written. Journeys are outside-in: a red Playwright journey drives smaller unit tests underneath and turns green when the feature is done. Other code (plumbing, UI wiring) is still test-first but reviewed after the feature rather than test by test. The AI tagger is tested with recorded responses and output-validity checks, and visual styling is not test-driven.
+
+Red, green and refactor steps are separate commits ("red: …", "green: …", "refactor: …") so the history shows that tests came first. This matters because the repository doubles as the Admin's SDET portfolio: the claim "I specified the behaviour as tests; the implementation was written against them" must be verifiable from git. Squash-merging that would erase this history is therefore not used.
