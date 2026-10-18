@@ -48,11 +48,11 @@ It is also a **testing portfolio project**. The test suite, test documents and t
 ## Running locally
 
 ```bash
-npm ci
-npm run check   # type-check, lint, tests
+pnpm install
+pnpm check   # type-check, lint, tests
 ```
 
-Requires Node 22+.
+Requires Node 22+ and pnpm (the exact version is pinned in `package.json`; `corepack enable` picks it up automatically). pnpm is used for its strict dependency layout: code can only import packages it declares, so a missing dependency fails locally instead of in CI or production.
 
 ## Licence
 
