@@ -113,7 +113,7 @@ A named trait from our fixed vocabulary (feel, interaction, mechanic, theme…) 
 _Avoid_: label, keyword, feature
 
 **Reason**:
-A Member's own explanation behind a Verdict or a Not Interested: optional free text plus the Tags derived from it, which the Member can edit.
+A Member's own explanation behind a Verdict or a Not Interested, private to that Member (other Members see only the love / fine / dislike): optional free text plus the Tags derived from it, which the Member can edit.
 _Avoid_: comment, review, note
 
 ## Recommending
