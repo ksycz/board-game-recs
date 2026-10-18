@@ -73,8 +73,20 @@ What a Member likes and dislikes in games, as learned from the Interview and lat
 _Avoid_: profile, preferences
 
 **Constraint**:
-A hard limit on which Games may be recommended right now (player count, play time, Complexity, setup effort, youngest Player's age). Unlike Taste, Constraints describe the occasion, not the person, and change from one session to the next.
+A limit on which Games may be recommended for this occasion (player count, play time, Complexity, Setup Effort, youngest Player's age). Unlike Taste, Constraints describe the occasion, not the person. Each is either a Hard Constraint or a Soft Constraint.
 _Avoid_: filter (that's the UI control), preference
+
+**Hard Constraint**:
+A Constraint that is never relaxed: the Player Range must include the number of Players, and the Game's minimum age must not exceed the youngest Player's.
+_Avoid_: strict filter
+
+**Soft Constraint**:
+A Constraint that may be Relaxed when nothing else passes: play time, Best Player Count, Complexity, Setup Effort, and dislikes at the Table.
+_Avoid_: preference, weak filter
+
+**Relaxation**:
+Letting a Game through despite breaking a Soft Constraint, always shown on the Recommendation ("runs ~10 min over", "Petra isn't a fan").
+_Avoid_: fallback, fuzzy match
 
 **Usual Group Size**:
 The group size a Member says they usually play with, asked once in the Interview and used as the default player-count Constraint.
@@ -103,7 +115,7 @@ How alike two Games are, judged by their Tags, Complexity and Best Player Count.
 _Avoid_: distance, closeness
 
 **Recommendation**:
-A Game the app suggests to a Member, together with the Explanation of why. Only Games that satisfy every Constraint can become Recommendations.
+A Game the app suggests to a Member, together with the Explanation of why. A Game must satisfy every Hard Constraint; it may break a Soft Constraint only through a visible Relaxation.
 _Avoid_: suggestion, result, pick
 
 **Explanation**:
@@ -115,5 +127,5 @@ The Players taking part in one Play-mode request: the Member asking, any other M
 _Avoid_: group, party, session
 
 **Group Fit**:
-How well a Game suits a whole Table: any Game that a Member at the Table dislikes is excluded; among the rest, the average of the Members' Fits.
+How well a Game suits a whole Table: any Game that a Member at the Table dislikes is excluded (unless Relaxed); among the rest, the average of the Members' Fits.
 _Avoid_: combined score, consensus
