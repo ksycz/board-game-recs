@@ -1,15 +1,15 @@
 # Board game recommendations
 
-An app that recommends board games to a person, either to buy next or to play from what they already own.
+An app that recommends board games to a group of friends: what to buy next, and what to play tonight from the games at hand.
 
 ## Language
 
 **Buy mode**:
-Recommending games the person does not own yet, driven mainly by their taste.
+Recommending Games a Member does not own yet, driven mainly by their Taste.
 _Avoid_: discover, shopping, "what to buy next"
 
 **Play mode**:
-Recommending a game from the person's own collection for a specific session, driven mainly by that session's situation (players, time, energy).
+Recommending a Game from the Shelf for one occasion, suited to the whole Table and driven mainly by the occasion's Constraints.
 _Avoid_: "play tonight", session picker
 
 **Collection**:
@@ -51,7 +51,7 @@ _Avoid_: weight, difficulty
 ## People
 
 **Member**:
-A person who can sign in to the app (by an emailed sign-in link) and has their own Collection and taste. While the app is personal, only Invited emails can become Members.
+A person who can sign in to the app (by an emailed sign-in link) and has their own Collection and Taste. While the app is personal, only Invited emails can become Members.
 _Avoid_: user, account, customer
 
 **Invite**:
@@ -123,6 +123,7 @@ _Avoid_: taxonomy, tag list
 **Unmatched Phrase**:
 Part of a Reason that no existing Tag covers, queued for the Admin to consider as a new Tag. The full Reason text is always kept so a new Tag can be applied to it later.
 _Avoid_: unknown tag, suggestion
+
 **Reason**:
 A Member's own explanation behind a Verdict or a Not Interested, private to that Member (other Members see only the love / fine / dislike): optional free text plus the Tags derived from it, which the Member can edit.
 _Avoid_: comment, review, note
