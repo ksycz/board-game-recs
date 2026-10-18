@@ -20,6 +20,10 @@ _Avoid_: library, owned games (and not Shelf, which is what is present tonight)
 The set of games the app knows about, curated and owned by us; every recommendation and every Collection entry refers to a Game in it.
 _Avoid_: database, game list
 
+**Unreviewed Game**:
+A Game a Member added that the Admin has not yet approved. It works in that Member's Collection and on a Shelf they are at, but is never recommended in Buy mode to anyone else.
+_Avoid_: draft, pending game
+
 **Game**:
 One entry in the Catalogue: a published base game with its facts (players, play time, minimum age) and our own descriptions (Complexity, tags). Any genre counts (card, party, children's, abstract, wargame); expansions are not Games; editions share one Game unless rules or player count differ substantially.
 _Avoid_: title, item, product
