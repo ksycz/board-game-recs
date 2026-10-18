@@ -62,6 +62,10 @@ _Avoid_: whitelist, allow-list
 The Member who manages Invites and reviews Games that Members add to the Catalogue.
 _Avoid_: owner, moderator, superuser
 
+**AI Budget**:
+The amount the Admin allows the app to spend on AI. The Admin is notified as it is used up; at the limit the app stops using AI until the Admin raises it.
+_Avoid_: quota, credit (that's the provider account)
+
 **Player**:
 Anyone sitting at the table for a game, whether or not they are a Member.
 _Avoid_: participant, guest
