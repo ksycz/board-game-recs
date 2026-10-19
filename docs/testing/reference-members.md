@@ -44,10 +44,10 @@ _Expected (Admin, 2026-10-19):_
 - **Dislikes:**
   - **Terraforming Mars**: "Everyone stares at their own board for three hours."
 
-_Expected:_
-- Must not appear: …
-- Should be in the top 5: …
-- Explanation should mention: …
+_Expected (Admin, 2026-10-19):_
+- Must not appear: Wingspan, Ark Nova, Forest Shuffle (long, multiplayer-solitaire)
+- Should be in the top 5: at least one of So Clover!, Skull, Trio
+- Explanation should mention: short (`filler`), party game, `funny`; people learn about each other
 
 ## 3. Cyril: heavy strategist
 
