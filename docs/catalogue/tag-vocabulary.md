@@ -1,6 +1,6 @@
 # Tag Vocabulary: draft for Admin review
 
-> **Status: DRAFT.** Cut, rename, merge or add Tags in review comments. Once approved, this becomes the data file the recommender and tests use, and only the Admin changes it from then on (see `CONTEXT.md` → Tag Vocabulary).
+> **Status: REVIEWED** with the Admin on 2026-10-19. Further changes go through review comments. Once approved, this becomes the data file the recommender and tests use, and only the Admin changes it from then on (see `CONTEXT.md` → Tag Vocabulary).
 
 Each Tag has a short id (used in code and tests), a plain-English meaning (what Members see), and examples to make the meaning concrete. Examples are illustrations, not final Catalogue tagging.
 
@@ -42,7 +42,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `traitor` | One or more players may secretly be working against the group | Dead of Winter, Battlestar Galactica |
 | `player-elimination` | Players can be knocked out before the game ends | Monopoly, Love Letter |
 
-## Mechanics: what you actually do (19)
+## Mechanics: what you actually do (21)
 
 | Id | Meaning | Examples |
 |---|---|---|
@@ -63,6 +63,8 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `real-time` | Everyone plays at once, against a clock or each other | Magic Maze, Dobble |
 | `dexterity` | Physical skill: flicking, stacking, balancing | Crokinole, Jenga |
 | `hidden-movement` | One side moves secretly on the map; the others track them down from clues | Scotland Yard, Letters from Whitechapel |
+| `combo-heavy` | Chaining effects together for big, satisfying turns | Ark Nova, Res Arcana |
+| `numbers` | Arithmetic and number puzzles are at the heart of the game | Welcome To…, The Game |
 | `abstract` | Little or no theme; the pieces, shapes and rules *are* the game | Azul, Hive |
 | `campaign` | A story or progress carries over across several sessions | Gloomhaven, Pandemic Legacy |
 
@@ -88,10 +90,10 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `simultaneous` | Everyone takes their turn at the same time | 7 Wonders, Cartographers |
 | `slow-burn` | The game builds up slowly and the payoff comes late | Brass: Birmingham, Agricola |
 
-**Total: 54 Tags.** That's slightly above the ~40 in the spec. `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
+**Total: 56 Tags.** That's slightly above the ~40 in the spec. `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
 
 ## Questions for review
 
 1. ~~Should "luck-heavy" and "strategic" be two Tags, or one scale?~~ **Decided: two Tags.** A Game can be neither or both, and a Member can love both (e.g. push-your-luck *and* long planning).
 2. ~~Where does player elimination belong?~~ **Decided: Interaction.** Grouping only affects how Tags are shown, not Fit.
-3. **What's missing?** Think of a Reason you'd give for loving or hating a Game that none of these Tags could express.
+3. ~~What's missing?~~ **Decided:** checked against the Admin's own Reasons; added `hidden-movement`, `tableau-building`, `tactical`, `beautiful`, `modern-design`, `cosy`, `easy-to-learn-hard-to-master`, `filler`, `combo-heavy` and `numbers`; moved `abstract` to Mechanics; renamed `solitary` to `multiplayer-solitaire`. `cute` was rejected in favour of `cosy`.
