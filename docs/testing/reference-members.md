@@ -47,7 +47,7 @@ _Expected (Admin, 2026-10-19):_
 _Expected (Admin, 2026-10-19):_
 - Must not appear: Wingspan, Ark Nova, Forest Shuffle (long, multiplayer-solitaire)
 - Should be in the top 5: at least one of So Clover!, Skull, Trio
-- Explanation should mention: short (`filler`), party game, `funny`; people learn about each other
+- Explanation should mention: short (`filler`), `party`, `funny`, `revealing` (people learn about each other)
 
 ## 3. Cyril: heavy strategist
 

@@ -9,7 +9,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 - It separates Games that people actually like or dislike for different reasons.
 - It does not duplicate another Tag.
 
-## Feel: what it's like to sit at the table (14)
+## Feel: what it's like to sit at the table (15)
 
 | Id | Meaning | Examples |
 |---|---|---|
@@ -26,9 +26,10 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `cosy` | Warm, gentle and charming; a pleasant place to spend an evening | Calico, Everdell |
 | `easy-to-learn-hard-to-master` | Rules fit in a few minutes, but playing well takes many games | Calico, Azul |
 | `newcomer-friendly` | Works well for people new to modern board games: familiar ideas, few exceptions, quick to start | Ticket to Ride, Kingdomino |
+| `party` | Built for a big, lively group; the fun is in the people more than the board | So Clover!, Codenames |
 | `modern-design` | Clean, contemporary graphic design: clear icons and layout, easy to read at a glance | Cascadia, Azul |
 
-## Interaction: how players affect each other (10)
+## Interaction: how players affect each other (11)
 
 | Id | Meaning | Examples |
 |---|---|---|
@@ -41,6 +42,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `bluffing` | Hiding what you have or intend, and calling others' bluffs | Skull, Coup |
 | `social-deduction` | Working out who is secretly on which side | The Resistance, Werewolf |
 | `traitor` | One or more players may secretly be working against the group | Dead of Winter, Battlestar Galactica |
+| `revealing` | You learn how the other players think | So Clover!, Dixit |
 | `player-elimination` | Players can be knocked out before the game ends | Monopoly, Love Letter |
 
 ## Mechanics: what you actually do (21)
@@ -91,7 +93,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `simultaneous` | Everyone takes their turn at the same time | 7 Wonders, Cartographers |
 | `slow-burn` | The game builds up slowly and the payoff comes late | Brass: Birmingham, Agricola |
 
-**Total: 57 Tags.** `newcomer-friendly` is a Tag a Game can carry; it is not the same as a **Gateway Game**, which is one of the Games used in the Interview grid (see `CONTEXT.md`). `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
+**Total: 59 Tags.** `newcomer-friendly` is a Tag a Game can carry; it is not the same as a **Gateway Game**, which is one of the Games used in the Interview grid (see `CONTEXT.md`). `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
 
 ## Questions for review
 
