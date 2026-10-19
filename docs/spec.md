@@ -101,7 +101,7 @@ Box art and publisher photos are copyrighted, so v1 shows no images of Games. Im
 
 ### Tag Vocabulary
 
-- **Starts with 60 Tags** (see `docs/catalogue/tag-vocabulary.md`) in five groups: Feel, Interaction, Mechanics, Theme, Pace.
+- **Starts with 61 Tags** (see `docs/catalogue/tag-vocabulary.md`) in five groups: Feel, Interaction, Mechanics, Theme, Pace.
 - **Only the Admin adds Tags.**
 - **Unmatched Phrases** from Reasons are queued and grouped with a count ("3 Members mentioned betrayal").
 - **When the Admin adds a Tag**, the Catalogue and all stored Reasons are re-tagged for it.
