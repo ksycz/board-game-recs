@@ -90,7 +90,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `simultaneous` | Everyone takes their turn at the same time | 7 Wonders, Cartographers |
 | `slow-burn` | The game builds up slowly and the payoff comes late | Brass: Birmingham, Agricola |
 
-**Total: 56 Tags.** That's slightly above the ~40 in the spec. `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
+**Total: 56 Tags.** `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
 
 ## Questions for review
 
