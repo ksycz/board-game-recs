@@ -9,7 +9,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 - It separates Games that people actually like or dislike for different reasons.
 - It does not duplicate another Tag.
 
-## Feel: what it's like to sit at the table (8)
+## Feel: what it's like to sit at the table (11)
 
 | Id | Meaning | Examples |
 |---|---|---|
@@ -21,12 +21,15 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `puzzly` | Working out the best move is the main joy | Azul, Calico |
 | `luck-heavy` | Dice or card draws decide a lot | Catan, King of Tokyo |
 | `strategic` | Long-term planning is rewarded; luck matters little | Brass: Birmingham, Terra Mystica |
+| `tactical` | The best move depends on the situation right now; you adapt turn by turn | Calico, Hive |
+| `beautiful` | Art and components are a big part of the appeal | Wingspan, Cascadia |
+| `modern-design` | Clean, contemporary graphic design: clear icons and layout, easy to read at a glance | Cascadia, Azul |
 
 ## Interaction: how players affect each other (10)
 
 | Id | Meaning | Examples |
 |---|---|---|
-| `solitary` | Everyone mostly builds their own thing | Wingspan, Cascadia |
+| `multiplayer-solitaire` | Everyone mostly builds their own thing, with little effect on each other | Wingspan, Cascadia |
 | `indirect` | You compete by taking what others want or blocking them | Ticket to Ride, Splendor |
 | `confrontational` | You directly attack or harm other players | Root, Exploding Kittens |
 | `cooperative` | Everyone wins or loses together | Pandemic, Spirit Island |
@@ -82,7 +85,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `simultaneous` | Everyone takes their turn at the same time | 7 Wonders, Cartographers |
 | `slow-burn` | The game builds up slowly and the payoff comes late | Brass: Birmingham, Agricola |
 
-**Total: 48 Tags.** That's slightly above the ~40 in the spec. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
+**Total: 51 Tags.** That's slightly above the ~40 in the spec. `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
 
 ## Questions for review
 
