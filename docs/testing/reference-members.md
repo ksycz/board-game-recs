@@ -29,10 +29,10 @@ Only use Games from the seed list (`docs/catalogue/seed-list.md`).
   - **Exploding Kittens**: "Pure chaos, I have no control."
   - **Root**: "Too much fighting, and I hate being attacked."
 
-_Expected:_
-- Must not appear: …
-- Should be in the top 5: …
-- Explanation should mention: …
+_Expected (Admin, 2026-10-19):_
+- Must not appear: Blood Rage, Secret Hitler
+- Should be in the top 5: at least one of Harmonies, Nova Luna, Nebula
+- Explanation should mention: plays well at 2 (Best Player Count), `relaxing`, `puzzly`
 
 ## 2. Bea: party host
 
