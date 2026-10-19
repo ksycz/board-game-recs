@@ -72,7 +72,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `abstract` | Little or no theme; the pieces, shapes and rules *are* the game | Azul, Hive |
 | `campaign` | A story or progress carries over across several sessions | Gloomhaven, Pandemic Legacy |
 
-## Theme: what the game is about (7)
+## Theme: what the game is about (8)
 
 | Id | Meaning | Examples |
 |---|---|---|
@@ -82,6 +82,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `historical` | Real periods and places | Brass: Birmingham, 7 Wonders |
 | `horror` | Dark, creepy or scary settings | Arkham Horror, Mansions of Madness |
 | `mystery` | Detective work and solving a case | Sherlock Holmes Consulting Detective, Mysterium |
+| `wargame` | Military conflict is the subject, often with maps and units | Twilight Struggle, Memoir '44 |
 | `economic` | Money, trade, markets, production | Power Grid, Brass: Birmingham |
 
 ## Pace: how the time feels (6)
@@ -95,7 +96,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `simultaneous` | Everyone takes their turn at the same time | 7 Wonders, Cartographers |
 | `slow-burn` | The game builds up slowly and the payoff comes late | Brass: Birmingham, Agricola |
 
-**Total: 61 Tags.** `analysis-paralysis` is about *why* a game slows (too many choices); `downtime` is about *how long* you wait between turns. A Game can have one without the other. `newcomer-friendly` is a Tag a Game can carry; it is not the same as a **Gateway Game**, which is one of the Games used in the Interview grid (see `CONTEXT.md`). `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
+**Total: 62 Tags.** `analysis-paralysis` is about *why* a game slows (too many choices); `downtime` is about *how long* you wait between turns. A Game can have one without the other. `newcomer-friendly` is a Tag a Game can carry; it is not the same as a **Gateway Game**, which is one of the Games used in the Interview grid (see `CONTEXT.md`). `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
 
 ## Questions for review
 

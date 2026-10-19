@@ -83,7 +83,7 @@ _Expected (Admin, 2026-10-19):_
 - **Complexity cap:** on (≤ 2.5)
 
 _Expected (Admin, 2026-10-19):_
-- Must not appear: Twilight Struggle (long war game)
+- Must not appear: Twilight Struggle (long `wargame`)
 - Should be in the top 5: at least one of Trio, Spicy, Sushi Go!
 - Explanation should mention: short (`filler`), `newcomer-friendly` / easy to learn
 - Note: Azul was considered and dropped. Dana's mood answer ("talking and laughing") should outweigh "easy and short" for a quiet puzzle game.
