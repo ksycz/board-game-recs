@@ -9,7 +9,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 - It separates Games that people actually like or dislike for different reasons.
 - It does not duplicate another Tag.
 
-## Feel: what it's like to sit at the table (15)
+## Feel: what it's like to sit at the table (16)
 
 | Id | Meaning | Examples |
 |---|---|---|
@@ -21,6 +21,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `puzzly` | Working out the best move is the main joy | Azul, Calico |
 | `luck-heavy` | Dice or card draws decide a lot | Catan, King of Tokyo |
 | `strategic` | Long-term planning is rewarded; luck matters little | Brass: Birmingham, Terra Mystica |
+| `crunchy` | Tight, meaty decisions: resources are scarce and every choice is a hard trade-off | Agricola, Brass: Birmingham |
 | `tactical` | The best move depends on the situation right now; you adapt turn by turn | Calico, Hive |
 | `beautiful` | Art and components are a big part of the appeal | Wingspan, Cascadia |
 | `cosy` | Warm, gentle and charming; a pleasant place to spend an evening | Calico, Everdell |
@@ -96,7 +97,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `simultaneous` | Everyone takes their turn at the same time | 7 Wonders, Cartographers |
 | `slow-burn` | The game builds up slowly and the payoff comes late | Brass: Birmingham, Agricola |
 
-**Total: 62 Tags.** `analysis-paralysis` is about *why* a game slows (too many choices); `downtime` is about *how long* you wait between turns. A Game can have one without the other. `newcomer-friendly` is a Tag a Game can carry; it is not the same as a **Gateway Game**, which is one of the Games used in the Interview grid (see `CONTEXT.md`). `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
+**Total: 63 Tags.** `analysis-paralysis` is about *why* a game slows (too many choices); `downtime` is about *how long* you wait between turns. A Game can have one without the other. `newcomer-friendly` is a Tag a Game can carry; it is not the same as a **Gateway Game**, which is one of the Games used in the Interview grid (see `CONTEXT.md`). `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
 
 ## Questions for review
 
