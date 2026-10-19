@@ -37,11 +37,12 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `traitor` | One or more players may secretly be working against the group | Dead of Winter, Battlestar Galactica |
 | `player-elimination` | Players can be knocked out before the game ends | Monopoly, Love Letter |
 
-## Mechanics: what you actually do (17)
+## Mechanics: what you actually do (19)
 
 | Id | Meaning | Examples |
 |---|---|---|
 | `engine-building` | Early choices make later turns more powerful | Wingspan, Terraforming Mars |
+| `tableau-building` | You build a personal display of cards in front of you whose effects work together | Wingspan, Everdell |
 | `deck-building` | You improve your own deck of cards as you play | Dominion, Clank! |
 | `worker-placement` | You place pieces to claim actions others then can't take | Agricola, Lords of Waterdeep |
 | `tile-laying` | You place tiles to build a map or pattern | Carcassonne, Cascadia |
@@ -57,9 +58,10 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `real-time` | Everyone plays at once, against a clock or each other | Magic Maze, Dobble |
 | `dexterity` | Physical skill: flicking, stacking, balancing | Crokinole, Jenga |
 | `hidden-movement` | One side moves secretly on the map; the others track them down from clues | Scotland Yard, Letters from Whitechapel |
+| `abstract` | Little or no theme; the pieces, shapes and rules *are* the game | Azul, Hive |
 | `campaign` | A story or progress carries over across several sessions | Gloomhaven, Pandemic Legacy |
 
-## Theme: what the game is about (8)
+## Theme: what the game is about (7)
 
 | Id | Meaning | Examples |
 |---|---|---|
@@ -70,7 +72,6 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `horror` | Dark, creepy or scary settings | Arkham Horror, Mansions of Madness |
 | `mystery` | Detective work and solving a case | Sherlock Holmes Consulting Detective, Mysterium |
 | `economic` | Money, trade, markets, production | Power Grid, Brass: Birmingham |
-| `abstract` | Little or no theme; the shapes and rules are the game | Azul, Hive |
 
 ## Pace: how the time feels (4)
 
@@ -81,7 +82,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `simultaneous` | Everyone takes their turn at the same time | 7 Wonders, Cartographers |
 | `slow-burn` | The game builds up slowly and the payoff comes late | Brass: Birmingham, Agricola |
 
-**Total: 47 Tags.** That's slightly above the ~40 in the spec. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
+**Total: 48 Tags.** That's slightly above the ~40 in the spec. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
 
 ## Questions for review
 
