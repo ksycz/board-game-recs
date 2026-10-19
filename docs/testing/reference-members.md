@@ -98,10 +98,10 @@ _Expected (Admin, 2026-10-19):_
 - **Dislikes:**
   - **Skull**: "Lying to each other isn't fun for us."
 
-_Expected:_
-- Must not appear: …
-- Should be in the top 5: …
-- Explanation should mention: …
+_Expected (Admin, 2026-10-19):_
+- Must not appear: Everdell, Earth, Shallow Sea (`multiplayer-solitaire`)
+- Should be in the top 5: at least one of Spirit Island, Paleo, Sky Team, Slay the Spire: The Board Game
+- Explanation should mention: `cooperative`
 
 ## 6. Fin: solo player
 
