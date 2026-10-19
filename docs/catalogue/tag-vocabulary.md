@@ -37,7 +37,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `traitor` | One or more players may secretly be working against the group | Dead of Winter, Battlestar Galactica |
 | `player-elimination` | Players can be knocked out before the game ends | Monopoly, Love Letter |
 
-## Mechanics: what you actually do (16)
+## Mechanics: what you actually do (17)
 
 | Id | Meaning | Examples |
 |---|---|---|
@@ -56,6 +56,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `word-guessing` | Clues, words or pictures that others must guess | Codenames, Just One |
 | `real-time` | Everyone plays at once, against a clock or each other | Magic Maze, Dobble |
 | `dexterity` | Physical skill: flicking, stacking, balancing | Crokinole, Jenga |
+| `hidden-movement` | One side moves secretly on the map; the others track them down from clues | Scotland Yard, Letters from Whitechapel |
 | `campaign` | A story or progress carries over across several sessions | Gloomhaven, Pandemic Legacy |
 
 ## Theme: what the game is about (8)
@@ -80,10 +81,10 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `simultaneous` | Everyone takes their turn at the same time | 7 Wonders, Cartographers |
 | `slow-burn` | The game builds up slowly and the payoff comes late | Brass: Birmingham, Agricola |
 
-**Total: 46 Tags.** That's slightly above the ~40 in the spec. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
+**Total: 47 Tags.** That's slightly above the ~40 in the spec. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
 
 ## Questions for review
 
-1. Should **"luck-heavy" and "strategic"** be two Tags, or one scale (luck ↔ planning)? Two Tags lets a Game be neither (party games) or both (Quacks of Quedlinburg).
+1. ~~Should "luck-heavy" and "strategic" be two Tags, or one scale?~~ **Decided: two Tags.** A Game can be neither or both, and a Member can love both (e.g. push-your-luck *and* long planning).
 2. **Player elimination** sits under Interaction. Is that where you'd look for it?
 3. **What's missing?** Think of a Reason you'd give for loving or hating a Game that none of these Tags could express.
