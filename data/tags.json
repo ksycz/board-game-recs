@@ -1,0 +1,568 @@
+[
+  {
+    "id": "relaxing",
+    "group": "Feel",
+    "meaning": "Low stress; nobody minds a slow turn",
+    "examples": [
+      "Cascadia",
+      "Wingspan"
+    ]
+  },
+  {
+    "id": "tense",
+    "group": "Feel",
+    "meaning": "Every decision matters and the pressure builds",
+    "examples": [
+      "Pandemic",
+      "The Crew"
+    ]
+  },
+  {
+    "id": "chaotic",
+    "group": "Feel",
+    "meaning": "Lots happens that nobody fully controls",
+    "examples": [
+      "Exploding Kittens",
+      "King of Tokyo"
+    ]
+  },
+  {
+    "id": "funny",
+    "group": "Feel",
+    "meaning": "Laughter is a big part of the fun",
+    "examples": [
+      "Dixit",
+      "Telestrations"
+    ]
+  },
+  {
+    "id": "dramatic",
+    "group": "Feel",
+    "meaning": "Big swings and memorable moments",
+    "examples": [
+      "Cosmic Encounter",
+      "Root"
+    ]
+  },
+  {
+    "id": "puzzly",
+    "group": "Feel",
+    "meaning": "Working out the best move is the main joy",
+    "examples": [
+      "Azul",
+      "Calico"
+    ]
+  },
+  {
+    "id": "luck-heavy",
+    "group": "Feel",
+    "meaning": "Dice or card draws decide a lot",
+    "examples": [
+      "Catan",
+      "King of Tokyo"
+    ]
+  },
+  {
+    "id": "strategic",
+    "group": "Feel",
+    "meaning": "Long-term planning is rewarded; luck matters little",
+    "examples": [
+      "Brass: Birmingham",
+      "Terra Mystica"
+    ]
+  },
+  {
+    "id": "crunchy",
+    "group": "Feel",
+    "meaning": "Tight, meaty decisions: resources are scarce and every choice is a hard trade-off",
+    "examples": [
+      "Agricola",
+      "Brass: Birmingham"
+    ]
+  },
+  {
+    "id": "tactical",
+    "group": "Feel",
+    "meaning": "The best move depends on the situation right now; you adapt turn by turn",
+    "examples": [
+      "Calico",
+      "Hive"
+    ]
+  },
+  {
+    "id": "beautiful",
+    "group": "Feel",
+    "meaning": "Art and components are a big part of the appeal",
+    "examples": [
+      "Wingspan",
+      "Cascadia"
+    ]
+  },
+  {
+    "id": "cosy",
+    "group": "Feel",
+    "meaning": "Warm, gentle and charming; a pleasant place to spend an evening",
+    "examples": [
+      "Calico",
+      "Everdell"
+    ]
+  },
+  {
+    "id": "easy-to-learn-hard-to-master",
+    "group": "Feel",
+    "meaning": "Rules fit in a few minutes, but playing well takes many games",
+    "examples": [
+      "Calico",
+      "Azul"
+    ]
+  },
+  {
+    "id": "newcomer-friendly",
+    "group": "Feel",
+    "meaning": "Works well for people new to modern board games: familiar ideas, few exceptions, quick to start",
+    "examples": [
+      "Ticket to Ride",
+      "Kingdomino"
+    ]
+  },
+  {
+    "id": "party",
+    "group": "Feel",
+    "meaning": "Built for a big, lively group; the fun is in the people more than the board",
+    "examples": [
+      "So Clover!",
+      "Codenames"
+    ]
+  },
+  {
+    "id": "modern-design",
+    "group": "Feel",
+    "meaning": "Clean, contemporary graphic design: clear icons and layout, easy to read at a glance",
+    "examples": [
+      "Cascadia",
+      "Azul"
+    ]
+  },
+  {
+    "id": "multiplayer-solitaire",
+    "group": "Interaction",
+    "meaning": "Everyone mostly builds their own thing, with little effect on each other",
+    "examples": [
+      "Wingspan",
+      "Cascadia"
+    ]
+  },
+  {
+    "id": "indirect",
+    "group": "Interaction",
+    "meaning": "You compete by taking what others want or blocking them",
+    "examples": [
+      "Ticket to Ride",
+      "Splendor"
+    ]
+  },
+  {
+    "id": "confrontational",
+    "group": "Interaction",
+    "meaning": "You directly attack or harm other players",
+    "examples": [
+      "Root",
+      "Exploding Kittens"
+    ]
+  },
+  {
+    "id": "cooperative",
+    "group": "Interaction",
+    "meaning": "Everyone wins or loses together",
+    "examples": [
+      "Pandemic",
+      "Spirit Island"
+    ]
+  },
+  {
+    "id": "team-based",
+    "group": "Interaction",
+    "meaning": "Two teams play against each other",
+    "examples": [
+      "Codenames"
+    ]
+  },
+  {
+    "id": "negotiation",
+    "group": "Interaction",
+    "meaning": "Deals and trades between players drive the game",
+    "examples": [
+      "Catan",
+      "Sidereal Confluence"
+    ]
+  },
+  {
+    "id": "bluffing",
+    "group": "Interaction",
+    "meaning": "Hiding what you have or intend, and calling others' bluffs",
+    "examples": [
+      "Skull",
+      "Coup"
+    ]
+  },
+  {
+    "id": "social-deduction",
+    "group": "Interaction",
+    "meaning": "Working out who is secretly on which side",
+    "examples": [
+      "The Resistance",
+      "Werewolf"
+    ]
+  },
+  {
+    "id": "traitor",
+    "group": "Interaction",
+    "meaning": "One or more players may secretly be working against the group",
+    "examples": [
+      "Dead of Winter",
+      "Battlestar Galactica"
+    ]
+  },
+  {
+    "id": "revealing",
+    "group": "Interaction",
+    "meaning": "You learn how the other players think",
+    "examples": [
+      "So Clover!",
+      "Dixit"
+    ]
+  },
+  {
+    "id": "player-elimination",
+    "group": "Interaction",
+    "meaning": "Players can be knocked out before the game ends",
+    "examples": [
+      "Monopoly",
+      "Love Letter"
+    ]
+  },
+  {
+    "id": "engine-building",
+    "group": "Mechanics",
+    "meaning": "Early choices make later turns more powerful",
+    "examples": [
+      "Wingspan",
+      "Terraforming Mars"
+    ]
+  },
+  {
+    "id": "tableau-building",
+    "group": "Mechanics",
+    "meaning": "You build a personal display of cards in front of you whose effects work together",
+    "examples": [
+      "Wingspan",
+      "Everdell"
+    ]
+  },
+  {
+    "id": "deck-building",
+    "group": "Mechanics",
+    "meaning": "You improve your own deck of cards as you play",
+    "examples": [
+      "Dominion",
+      "Clank!"
+    ]
+  },
+  {
+    "id": "worker-placement",
+    "group": "Mechanics",
+    "meaning": "You place pieces to claim actions others then can't take",
+    "examples": [
+      "Agricola",
+      "Lords of Waterdeep"
+    ]
+  },
+  {
+    "id": "tile-laying",
+    "group": "Mechanics",
+    "meaning": "You place tiles to build a map or pattern",
+    "examples": [
+      "Carcassonne",
+      "Cascadia"
+    ]
+  },
+  {
+    "id": "drafting",
+    "group": "Mechanics",
+    "meaning": "You pick cards or tiles from a shared selection, then pass on the rest",
+    "examples": [
+      "Sushi Go!",
+      "7 Wonders"
+    ]
+  },
+  {
+    "id": "set-collection",
+    "group": "Mechanics",
+    "meaning": "You score by gathering matching or complete sets",
+    "examples": [
+      "Ticket to Ride",
+      "Splendor"
+    ]
+  },
+  {
+    "id": "area-control",
+    "group": "Mechanics",
+    "meaning": "You fight for majority in regions of a map",
+    "examples": [
+      "El Grande",
+      "Inis"
+    ]
+  },
+  {
+    "id": "roll-and-write",
+    "group": "Mechanics",
+    "meaning": "You roll dice and mark choices on your own sheet",
+    "examples": [
+      "Cartographers",
+      "That's Pretty Clever!"
+    ]
+  },
+  {
+    "id": "push-your-luck",
+    "group": "Mechanics",
+    "meaning": "Keep going for more, or stop before you lose it all",
+    "examples": [
+      "Quacks of Quedlinburg",
+      "Can't Stop"
+    ]
+  },
+  {
+    "id": "trick-taking",
+    "group": "Mechanics",
+    "meaning": "Players each play a card and the best one wins the trick",
+    "examples": [
+      "The Crew",
+      "Cat in the Box"
+    ]
+  },
+  {
+    "id": "hand-management",
+    "group": "Mechanics",
+    "meaning": "Choosing when to play which card from your hand is the key skill",
+    "examples": [
+      "Lost Cities",
+      "Res Arcana"
+    ]
+  },
+  {
+    "id": "route-building",
+    "group": "Mechanics",
+    "meaning": "You connect places on a map",
+    "examples": [
+      "Ticket to Ride",
+      "Power Grid"
+    ]
+  },
+  {
+    "id": "word-guessing",
+    "group": "Mechanics",
+    "meaning": "Clues, words or pictures that others must guess",
+    "examples": [
+      "Codenames",
+      "Just One"
+    ]
+  },
+  {
+    "id": "real-time",
+    "group": "Mechanics",
+    "meaning": "Everyone plays at once, against a clock or each other",
+    "examples": [
+      "Magic Maze",
+      "Dobble"
+    ]
+  },
+  {
+    "id": "dexterity",
+    "group": "Mechanics",
+    "meaning": "Physical skill: flicking, stacking, balancing",
+    "examples": [
+      "Crokinole",
+      "Jenga"
+    ]
+  },
+  {
+    "id": "hidden-movement",
+    "group": "Mechanics",
+    "meaning": "One side moves secretly on the map; the others track them down from clues",
+    "examples": [
+      "Scotland Yard",
+      "Letters from Whitechapel"
+    ]
+  },
+  {
+    "id": "combo-heavy",
+    "group": "Mechanics",
+    "meaning": "Chaining effects together for big, satisfying turns",
+    "examples": [
+      "Ark Nova",
+      "Res Arcana"
+    ]
+  },
+  {
+    "id": "numbers",
+    "group": "Mechanics",
+    "meaning": "Arithmetic and number puzzles are at the heart of the game",
+    "examples": [
+      "Welcome To…",
+      "The Game"
+    ]
+  },
+  {
+    "id": "auction",
+    "group": "Mechanics",
+    "meaning": "Players bid against each other for items, turn order or actions",
+    "examples": [
+      "Ra",
+      "Modern Art"
+    ]
+  },
+  {
+    "id": "abstract",
+    "group": "Mechanics",
+    "meaning": "Little or no theme; the pieces, shapes and rules *are* the game",
+    "examples": [
+      "Azul",
+      "Hive"
+    ]
+  },
+  {
+    "id": "campaign",
+    "group": "Mechanics",
+    "meaning": "A story or progress carries over across several sessions",
+    "examples": [
+      "Gloomhaven",
+      "Pandemic Legacy"
+    ]
+  },
+  {
+    "id": "nature",
+    "group": "Theme",
+    "meaning": "Animals, plants, landscapes",
+    "examples": [
+      "Wingspan",
+      "Cascadia"
+    ]
+  },
+  {
+    "id": "fantasy",
+    "group": "Theme",
+    "meaning": "Magic, monsters, mythical worlds",
+    "examples": [
+      "Gloomhaven",
+      "Spirit Island"
+    ]
+  },
+  {
+    "id": "sci-fi",
+    "group": "Theme",
+    "meaning": "Space, future technology, aliens",
+    "examples": [
+      "Terraforming Mars",
+      "Cosmic Encounter"
+    ]
+  },
+  {
+    "id": "historical",
+    "group": "Theme",
+    "meaning": "Real periods and places",
+    "examples": [
+      "Brass: Birmingham",
+      "7 Wonders"
+    ]
+  },
+  {
+    "id": "horror",
+    "group": "Theme",
+    "meaning": "Dark, creepy or scary settings",
+    "examples": [
+      "Arkham Horror",
+      "Mansions of Madness"
+    ]
+  },
+  {
+    "id": "mystery",
+    "group": "Theme",
+    "meaning": "Detective work and solving a case",
+    "examples": [
+      "Sherlock Holmes Consulting Detective",
+      "Mysterium"
+    ]
+  },
+  {
+    "id": "wargame",
+    "group": "Theme",
+    "meaning": "Military conflict is the subject, often with maps and units",
+    "examples": [
+      "Twilight Struggle",
+      "Memoir '44"
+    ]
+  },
+  {
+    "id": "economic",
+    "group": "Theme",
+    "meaning": "Money, trade, markets, production",
+    "examples": [
+      "Power Grid",
+      "Brass: Birmingham"
+    ]
+  },
+  {
+    "id": "filler",
+    "group": "Pace",
+    "meaning": "A short game (about 10–20 minutes) to play between bigger ones or on a coffee break",
+    "examples": [
+      "Spots",
+      "Sushi Go!"
+    ]
+  },
+  {
+    "id": "quick-turns",
+    "group": "Pace",
+    "meaning": "Turns are short; there's little waiting for others",
+    "examples": [
+      "Splendor",
+      "Sushi Go!"
+    ]
+  },
+  {
+    "id": "downtime",
+    "group": "Pace",
+    "meaning": "You may wait a while between your turns",
+    "examples": [
+      "Twilight Imperium",
+      "Terraforming Mars at 5"
+    ]
+  },
+  {
+    "id": "analysis-paralysis",
+    "group": "Pace",
+    "meaning": "So many options each turn that some players freeze and the game slows down",
+    "examples": [
+      "Ark Nova",
+      "Terraforming Mars"
+    ]
+  },
+  {
+    "id": "simultaneous",
+    "group": "Pace",
+    "meaning": "Everyone takes their turn at the same time",
+    "examples": [
+      "7 Wonders",
+      "Cartographers"
+    ]
+  },
+  {
+    "id": "slow-burn",
+    "group": "Pace",
+    "meaning": "The game builds up slowly and the payoff comes late",
+    "examples": [
+      "Brass: Birmingham",
+      "Agricola"
+    ]
+  }
+]
