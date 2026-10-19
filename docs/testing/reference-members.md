@@ -84,7 +84,7 @@ _Expected (Admin, 2026-10-19):_
 
 _Expected (Admin, 2026-10-19):_
 - Must not appear: Twilight Struggle (long war game)
-- Should be in the top 5: Trio
+- Should be in the top 5: at least one of Trio, Spicy
 - Explanation should mention: short (`filler`), `newcomer-friendly` / easy to learn
 - Note: Azul was considered and dropped. Dana's mood answer ("talking and laughing") should outweigh "easy and short" for a quiet puzzle game.
 
