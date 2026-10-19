@@ -45,7 +45,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `revealing` | You learn how the other players think | So Clover!, Dixit |
 | `player-elimination` | Players can be knocked out before the game ends | Monopoly, Love Letter |
 
-## Mechanics: what you actually do (21)
+## Mechanics: what you actually do (22)
 
 | Id | Meaning | Examples |
 |---|---|---|
@@ -68,6 +68,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `hidden-movement` | One side moves secretly on the map; the others track them down from clues | Scotland Yard, Letters from Whitechapel |
 | `combo-heavy` | Chaining effects together for big, satisfying turns | Ark Nova, Res Arcana |
 | `numbers` | Arithmetic and number puzzles are at the heart of the game | Welcome To…, The Game |
+| `auction` | Players bid against each other for items, turn order or actions | Ra, Modern Art |
 | `abstract` | Little or no theme; the pieces, shapes and rules *are* the game | Azul, Hive |
 | `campaign` | A story or progress carries over across several sessions | Gloomhaven, Pandemic Legacy |
 
@@ -93,7 +94,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `simultaneous` | Everyone takes their turn at the same time | 7 Wonders, Cartographers |
 | `slow-burn` | The game builds up slowly and the payoff comes late | Brass: Birmingham, Agricola |
 
-**Total: 59 Tags.** `newcomer-friendly` is a Tag a Game can carry; it is not the same as a **Gateway Game**, which is one of the Games used in the Interview grid (see `CONTEXT.md`). `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
+**Total: 60 Tags.** `newcomer-friendly` is a Tag a Game can carry; it is not the same as a **Gateway Game**, which is one of the Games used in the Interview grid (see `CONTEXT.md`). `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
 
 ## Questions for review
 
