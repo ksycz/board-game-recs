@@ -82,10 +82,11 @@ _Expected (Admin, 2026-10-19):_
   - short
 - **Complexity cap:** on (≤ 2.5)
 
-_Expected:_
-- Must not appear: …
-- Should be in the top 5: …
-- Explanation should mention: …
+_Expected (Admin, 2026-10-19):_
+- Must not appear: Twilight Struggle (long war game)
+- Should be in the top 5: Trio
+- Explanation should mention: short (`filler`), `newcomer-friendly` / easy to learn
+- Note: Azul was considered and dropped. Dana's mood answer ("talking and laughing") should outweigh "easy and short" for a quiet puzzle game.
 
 ## 5. Eli: cooperative couple
 
