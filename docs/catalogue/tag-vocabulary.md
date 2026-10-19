@@ -9,7 +9,7 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 - It separates Games that people actually like or dislike for different reasons.
 - It does not duplicate another Tag.
 
-## Feel: what it's like to sit at the table (11)
+## Feel: what it's like to sit at the table (13)
 
 | Id | Meaning | Examples |
 |---|---|---|
@@ -23,6 +23,8 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `strategic` | Long-term planning is rewarded; luck matters little | Brass: Birmingham, Terra Mystica |
 | `tactical` | The best move depends on the situation right now; you adapt turn by turn | Calico, Hive |
 | `beautiful` | Art and components are a big part of the appeal | Wingspan, Cascadia |
+| `cosy` | Warm, gentle and charming; a pleasant place to spend an evening | Calico, Everdell |
+| `easy-to-learn-hard-to-master` | Rules fit in a few minutes, but playing well takes many games | Calico, Azul |
 | `modern-design` | Clean, contemporary graphic design: clear icons and layout, easy to read at a glance | Cascadia, Azul |
 
 ## Interaction: how players affect each other (10)
@@ -76,16 +78,17 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 | `mystery` | Detective work and solving a case | Sherlock Holmes Consulting Detective, Mysterium |
 | `economic` | Money, trade, markets, production | Power Grid, Brass: Birmingham |
 
-## Pace: how the time feels (4)
+## Pace: how the time feels (5)
 
 | Id | Meaning | Examples |
 |---|---|---|
+| `filler` | A short game (about 10–20 minutes) to play between bigger ones or on a coffee break | Spots, Sushi Go! |
 | `quick-turns` | Turns are short; there's little waiting for others | Splendor, Sushi Go! |
 | `downtime` | You may wait a while between your turns | Twilight Imperium, Terraforming Mars at 5 |
 | `simultaneous` | Everyone takes their turn at the same time | 7 Wonders, Cartographers |
 | `slow-burn` | The game builds up slowly and the payoff comes late | Brass: Birmingham, Agricola |
 
-**Total: 51 Tags.** That's slightly above the ~40 in the spec. `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
+**Total: 54 Tags.** That's slightly above the ~40 in the spec. `solitary` was renamed `multiplayer-solitaire`, the term players actually use. Candidates to cut or merge if you want fewer: `dramatic` (overlaps `chaotic`), `traitor` (overlaps `social-deduction`), `dexterity`, `slow-burn` (overlaps `strategic`).
 
 ## Questions for review
 
