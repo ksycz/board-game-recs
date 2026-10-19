@@ -59,10 +59,10 @@ _Expected (Admin, 2026-10-19):_
   - **Catan**: "The dice decide too much."
   - **Ticket to Ride**: "Too simple, I'm bored by turn ten."
 
-_Expected:_
-- Must not appear: …
-- Should be in the top 5: …
-- Explanation should mention: …
+_Expected (Admin, 2026-10-19):_
+- Must not appear: Can't Stop, Flip 7 (lots of push-your-luck), Ra (auction game)
+- Should be in the top 5: at least one of Ark Nova, Scythe, Dune: Imperium
+- Explanation should mention: long, `strategic`
 
 ## 4. Dana: newcomer (takes the Gateway grid)
 
