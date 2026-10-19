@@ -112,10 +112,11 @@ _Expected (Admin, 2026-10-19):_
 - **Dislikes:**
   - **Codenames**: "Needs a crowd."
 
-_Expected:_
-- Must not appear: …
-- Should be in the top 5: …
-- Explanation should mention: …
+_Expected (Admin, 2026-10-19):_
+- Must not appear: any Game Tagged `party`; Exploding Kittens, Cards Against Humanity, Decrypto
+- Should be in the top 5: at least one of Floriferous, Endeavor: Deep Sea, Conservas
+- Explanation should mention: plays well solo (Best Player Count includes 1)
+- Note: Conservas is solo-only (Player Range 1–1), so it also checks that a one-player-only Game is recommended to a solo Member. Endeavor: Deep Sea's solo scenarios are part of why it fits.
 
 ## 7. Gus: loves confrontation
 
