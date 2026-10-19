@@ -1,6 +1,6 @@
 # Tag Vocabulary: draft for Admin review
 
-> **Status: REVIEWED** with the Admin on 2026-10-19. The machine-readable list the app and tests use is [`data/tags.json`](../../data/tags.json), generated from this document. Change both together, in a pull request. Once approved, this becomes the data file the recommender and tests use, and only the Admin changes it from then on (see `CONTEXT.md` → Tag Vocabulary).
+> **Status: REVIEWED** with the Admin on 2026-10-19. The machine-readable list the app and tests use is [`data/tags.json`](../../data/tags.json), generated from this document. Change both together, in a pull request; only the Admin changes the vocabulary (see `CONTEXT.md` → Tag Vocabulary).
 
 Each Tag has a short id (used in code and tests), a plain-English meaning (what Members see), and examples to make the meaning concrete. Examples are illustrations, not final Catalogue tagging.
 
