@@ -128,10 +128,10 @@ _Expected (Admin, 2026-10-19):_
 - **Dislikes:**
   - **Wingspan**: "Nobody interacts. Might as well play alone."
 
-_Expected:_
-- Must not appear: …
-- Should be in the top 5: …
-- Explanation should mention: …
+_Expected (Admin, 2026-10-19):_
+- Must not appear: A Feast for Odin, Hadrian's Wall, Daydream (no interaction; Daydream is a cosy roll-and-write)
+- Should be in the top 5: at least one of Gunsen: The Battle for Toshi Ranbo, Inis, Ankh: Gods of Egypt
+- Explanation should mention: good player interaction (`confrontational`)
 
 ---
 
