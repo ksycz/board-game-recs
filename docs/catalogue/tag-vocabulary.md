@@ -87,5 +87,5 @@ Each Tag has a short id (used in code and tests), a plain-English meaning (what 
 ## Questions for review
 
 1. ~~Should "luck-heavy" and "strategic" be two Tags, or one scale?~~ **Decided: two Tags.** A Game can be neither or both, and a Member can love both (e.g. push-your-luck *and* long planning).
-2. **Player elimination** sits under Interaction. Is that where you'd look for it?
+2. ~~Where does player elimination belong?~~ **Decided: Interaction.** Grouping only affects how Tags are shown, not Fit.
 3. **What's missing?** Think of a Reason you'd give for loving or hating a Game that none of these Tags could express.
