@@ -1,0 +1,26 @@
+{
+  "id": "patchwork",
+  "name": "Patchwork",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 30
+  },
+  "minAge": 8,
+  "complexity": 1.7,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "puzzly",
+    "tile-laying",
+    "cosy",
+    "relaxing",
+    "easy-to-learn-hard-to-master"
+  ]
+}

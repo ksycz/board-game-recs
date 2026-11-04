@@ -1,0 +1,29 @@
+{
+  "id": "codenames",
+  "name": "Codenames",
+  "playerRange": {
+    "min": 2,
+    "max": 8
+  },
+  "bestPlayerCounts": [
+    6,
+    7,
+    8
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 15
+  },
+  "minAge": 14,
+  "complexity": 1.3,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "word-guessing",
+    "team-based",
+    "party",
+    "funny",
+    "filler",
+    "newcomer-friendly"
+  ]
+}

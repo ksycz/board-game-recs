@@ -1,0 +1,28 @@
+{
+  "id": "uno",
+  "name": "Uno",
+  "playerRange": {
+    "min": 2,
+    "max": 10
+  },
+  "bestPlayerCounts": [
+    4,
+    5
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 30
+  },
+  "minAge": 7,
+  "complexity": 1.0,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "luck-heavy",
+    "chaotic",
+    "quick-turns",
+    "filler",
+    "newcomer-friendly",
+    "hand-management"
+  ]
+}

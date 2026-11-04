@@ -1,0 +1,27 @@
+{
+  "id": "pandemic",
+  "name": "Pandemic",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 45,
+    "max": 45
+  },
+  "minAge": 8,
+  "complexity": 2.4,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "cooperative",
+    "tense",
+    "hand-management",
+    "set-collection",
+    "newcomer-friendly"
+  ]
+}

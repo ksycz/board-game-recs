@@ -1,0 +1,30 @@
+{
+  "id": "wingspan",
+  "name": "Wingspan",
+  "playerRange": {
+    "min": 1,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 40,
+    "max": 70
+  },
+  "minAge": 10,
+  "complexity": 2.4,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "engine-building",
+    "tableau-building",
+    "combo-heavy",
+    "multiplayer-solitaire",
+    "relaxing",
+    "beautiful",
+    "nature"
+  ],
+  "bggId": 266192
+}

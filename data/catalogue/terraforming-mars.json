@@ -1,0 +1,29 @@
+{
+  "id": "terraforming-mars",
+  "name": "Terraforming Mars",
+  "playerRange": {
+    "min": 1,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    3
+  ],
+  "playTime": {
+    "min": 120,
+    "max": 120
+  },
+  "minAge": 12,
+  "complexity": 3.3,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "engine-building",
+    "tableau-building",
+    "combo-heavy",
+    "multiplayer-solitaire",
+    "strategic",
+    "sci-fi",
+    "downtime",
+    "analysis-paralysis"
+  ]
+}

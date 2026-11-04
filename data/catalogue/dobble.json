@@ -1,0 +1,28 @@
+{
+  "id": "dobble",
+  "name": "Dobble",
+  "playerRange": {
+    "min": 2,
+    "max": 8
+  },
+  "bestPlayerCounts": [
+    4,
+    5
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 15
+  },
+  "minAge": 6,
+  "complexity": 1.0,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "real-time",
+    "party",
+    "filler",
+    "chaotic",
+    "funny",
+    "newcomer-friendly"
+  ]
+}

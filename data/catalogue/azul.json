@@ -1,0 +1,29 @@
+{
+  "id": "azul",
+  "name": "Azul",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 45
+  },
+  "minAge": 8,
+  "complexity": 1.8,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "abstract",
+    "puzzly",
+    "drafting",
+    "beautiful",
+    "easy-to-learn-hard-to-master",
+    "indirect",
+    "newcomer-friendly"
+  ],
+  "bggId": 230802
+}

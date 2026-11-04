@@ -1,0 +1,28 @@
+{
+  "id": "7-wonders",
+  "name": "7 Wonders",
+  "playerRange": {
+    "min": 3,
+    "max": 7
+  },
+  "bestPlayerCounts": [
+    4,
+    5
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 10,
+  "complexity": 2.3,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "drafting",
+    "simultaneous",
+    "engine-building",
+    "set-collection",
+    "quick-turns",
+    "historical"
+  ]
+}

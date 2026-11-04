@@ -1,0 +1,28 @@
+{
+  "id": "agricola",
+  "name": "Agricola",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 150
+  },
+  "minAge": 12,
+  "complexity": 3.6,
+  "setupEffort": "long",
+  "tableSpace": "large",
+  "tags": [
+    "worker-placement",
+    "crunchy",
+    "strategic",
+    "engine-building",
+    "slow-burn",
+    "indirect"
+  ]
+}
