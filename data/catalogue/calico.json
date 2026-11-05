@@ -1,0 +1,30 @@
+{
+  "id": "calico",
+  "name": "Calico",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 45
+  },
+  "minAge": 10,
+  "complexity": 2.2,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "puzzly",
+    "tile-laying",
+    "set-collection",
+    "crunchy",
+    "cosy",
+    "beautiful",
+    "easy-to-learn-hard-to-master",
+    "multiplayer-solitaire"
+  ]
+}

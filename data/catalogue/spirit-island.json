@@ -1,0 +1,29 @@
+{
+  "id": "spirit-island",
+  "name": "Spirit Island",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 90,
+    "max": 120
+  },
+  "minAge": 13,
+  "complexity": 4.0,
+  "setupEffort": "long",
+  "tableSpace": "large",
+  "tags": [
+    "cooperative",
+    "crunchy",
+    "strategic",
+    "combo-heavy",
+    "puzzly",
+    "fantasy",
+    "analysis-paralysis"
+  ],
+  "bggId": 162886
+}

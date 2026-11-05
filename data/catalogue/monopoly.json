@@ -1,0 +1,27 @@
+{
+  "id": "monopoly",
+  "name": "Monopoly",
+  "playerRange": {
+    "min": 2,
+    "max": 8
+  },
+  "bestPlayerCounts": [
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 180
+  },
+  "minAge": 8,
+  "complexity": 1.6,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "luck-heavy",
+    "player-elimination",
+    "negotiation",
+    "downtime",
+    "economic"
+  ]
+}

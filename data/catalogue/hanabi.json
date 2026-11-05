@@ -1,0 +1,26 @@
+{
+  "id": "hanabi",
+  "name": "Hanabi",
+  "playerRange": {
+    "min": 2,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 25,
+    "max": 25
+  },
+  "minAge": 8,
+  "complexity": 1.7,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "cooperative",
+    "hand-management",
+    "tense",
+    "filler"
+  ]
+}

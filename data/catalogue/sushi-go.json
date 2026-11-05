@@ -1,0 +1,29 @@
+{
+  "id": "sushi-go",
+  "name": "Sushi Go!",
+  "playerRange": {
+    "min": 2,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    4,
+    5
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 15
+  },
+  "minAge": 8,
+  "complexity": 1.2,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "drafting",
+    "set-collection",
+    "filler",
+    "simultaneous",
+    "quick-turns",
+    "newcomer-friendly"
+  ],
+  "bggId": 133473
+}

@@ -1,0 +1,28 @@
+{
+  "id": "skull",
+  "name": "Skull",
+  "playerRange": {
+    "min": 3,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    5,
+    6
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 45
+  },
+  "minAge": 10,
+  "complexity": 1.1,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "bluffing",
+    "push-your-luck",
+    "party",
+    "tense",
+    "player-elimination"
+  ],
+  "bggId": 92415
+}

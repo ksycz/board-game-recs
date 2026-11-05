@@ -1,0 +1,29 @@
+{
+  "id": "king-of-tokyo",
+  "name": "King of Tokyo",
+  "playerRange": {
+    "min": 2,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    4,
+    5
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 8,
+  "complexity": 1.5,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "confrontational",
+    "luck-heavy",
+    "push-your-luck",
+    "chaotic",
+    "player-elimination",
+    "funny",
+    "newcomer-friendly"
+  ]
+}

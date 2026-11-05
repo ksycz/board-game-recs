@@ -1,0 +1,31 @@
+{
+  "id": "brass-birmingham",
+  "name": "Brass: Birmingham",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 120
+  },
+  "minAge": 14,
+  "complexity": 3.9,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "strategic",
+    "crunchy",
+    "economic",
+    "historical",
+    "route-building",
+    "hand-management",
+    "slow-burn",
+    "indirect"
+  ],
+  "bggId": 224517
+}

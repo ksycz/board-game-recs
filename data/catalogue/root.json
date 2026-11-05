@@ -1,0 +1,27 @@
+{
+  "id": "root",
+  "name": "Root",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    4
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 90
+  },
+  "minAge": 10,
+  "complexity": 3.7,
+  "setupEffort": "long",
+  "tableSpace": "large",
+  "tags": [
+    "confrontational",
+    "area-control",
+    "wargame",
+    "dramatic",
+    "strategic",
+    "analysis-paralysis"
+  ]
+}

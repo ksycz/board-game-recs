@@ -1,0 +1,25 @@
+{
+  "id": "ticket-to-ride",
+  "name": "Ticket to Ride",
+  "playerRange": {
+    "min": 2,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    4
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 60
+  },
+  "minAge": 8,
+  "complexity": 1.8,
+  "setupEffort": "quick",
+  "tableSpace": "large",
+  "tags": [
+    "route-building",
+    "set-collection",
+    "indirect",
+    "newcomer-friendly"
+  ]
+}

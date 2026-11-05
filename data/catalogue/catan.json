@@ -1,0 +1,26 @@
+{
+  "id": "catan",
+  "name": "Catan",
+  "playerRange": {
+    "min": 3,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    4
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 120
+  },
+  "minAge": 10,
+  "complexity": 2.3,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "luck-heavy",
+    "negotiation",
+    "route-building",
+    "newcomer-friendly",
+    "economic"
+  ]
+}

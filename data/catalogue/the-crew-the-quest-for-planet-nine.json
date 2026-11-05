@@ -1,0 +1,26 @@
+{
+  "id": "the-crew-the-quest-for-planet-nine",
+  "name": "The Crew: The Quest for Planet Nine",
+  "playerRange": {
+    "min": 2,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    4
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 20
+  },
+  "minAge": 10,
+  "complexity": 2.0,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "cooperative",
+    "trick-taking",
+    "tense",
+    "campaign",
+    "sci-fi"
+  ]
+}

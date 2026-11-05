@@ -1,0 +1,25 @@
+{
+  "id": "carcassonne",
+  "name": "Carcassonne",
+  "playerRange": {
+    "min": 2,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 45
+  },
+  "minAge": 7,
+  "complexity": 1.9,
+  "setupEffort": "quick",
+  "tableSpace": "large",
+  "tags": [
+    "tile-laying",
+    "tactical",
+    "indirect",
+    "newcomer-friendly"
+  ]
+}
