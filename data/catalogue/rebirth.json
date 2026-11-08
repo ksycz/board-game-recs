@@ -1,0 +1,26 @@
+{
+  "id": "rebirth",
+  "name": "Rebirth",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    3
+  ],
+  "playTime": {
+    "min": 45,
+    "max": 60
+  },
+  "minAge": 10,
+  "complexity": 2.0,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "tile-laying",
+    "area-control",
+    "puzzly",
+    "indirect"
+  ],
+  "bggId": 417197
+}

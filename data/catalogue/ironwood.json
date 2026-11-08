@@ -1,0 +1,28 @@
+{
+  "id": "ironwood",
+  "name": "Ironwood",
+  "playerRange": {
+    "min": 1,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 60
+  },
+  "minAge": 12,
+  "complexity": 2.8,
+  "setupEffort": "medium",
+  "tableSpace": "medium",
+  "tags": [
+    "confrontational",
+    "area-control",
+    "hand-management",
+    "bluffing",
+    "strategic",
+    "fantasy"
+  ],
+  "bggId": 407343
+}

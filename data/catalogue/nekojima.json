@@ -1,0 +1,28 @@
+{
+  "id": "nekojima",
+  "name": "Nekojima",
+  "playerRange": {
+    "min": 1,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 30
+  },
+  "minAge": 8,
+  "complexity": 1.1,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "dexterity",
+    "cooperative",
+    "tense",
+    "cosy",
+    "filler"
+  ],
+  "bggId": 359029
+}

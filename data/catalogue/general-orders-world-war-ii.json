@@ -1,0 +1,28 @@
+{
+  "id": "general-orders-world-war-ii",
+  "name": "General Orders: World War II",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 45
+  },
+  "minAge": 12,
+  "complexity": 2.0,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "worker-placement",
+    "wargame",
+    "area-control",
+    "confrontational",
+    "tactical",
+    "historical"
+  ],
+  "bggId": 381435
+}

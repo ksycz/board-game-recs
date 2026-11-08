@@ -1,0 +1,28 @@
+{
+  "id": "birdwatcher",
+  "name": "Birdwatcher",
+  "playerRange": {
+    "min": 1,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 25,
+    "max": 60
+  },
+  "minAge": 13,
+  "complexity": 2.1,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "set-collection",
+    "hand-management",
+    "beautiful",
+    "relaxing",
+    "nature"
+  ],
+  "bggId": 342343
+}

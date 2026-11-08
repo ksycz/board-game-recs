@@ -1,0 +1,29 @@
+{
+  "id": "tedoku",
+  "name": "Tedoku",
+  "playerRange": {
+    "min": 1,
+    "max": 100
+  },
+  "bestPlayerCounts": [
+    1,
+    2
+  ],
+  "playTime": {
+    "min": 10,
+    "max": 20
+  },
+  "minAge": 7,
+  "complexity": 1.0,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "roll-and-write",
+    "numbers",
+    "puzzly",
+    "filler",
+    "simultaneous",
+    "multiplayer-solitaire"
+  ],
+  "bggId": 451305
+}

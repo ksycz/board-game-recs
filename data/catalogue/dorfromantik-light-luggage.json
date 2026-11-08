@@ -1,0 +1,29 @@
+{
+  "id": "dorfromantik-light-luggage",
+  "name": "Dorfromantik: Light Luggage",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    1,
+    2
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 40
+  },
+  "minAge": 8,
+  "complexity": 1.4,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "cooperative",
+    "tile-laying",
+    "puzzly",
+    "relaxing",
+    "campaign",
+    "nature"
+  ],
+  "bggId": 449931
+}

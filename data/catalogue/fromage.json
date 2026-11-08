@@ -1,0 +1,27 @@
+{
+  "id": "fromage",
+  "name": "Fromage",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    4
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 45
+  },
+  "minAge": 14,
+  "complexity": 2.3,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "worker-placement",
+    "simultaneous",
+    "puzzly",
+    "combo-heavy",
+    "economic"
+  ],
+  "bggId": 384213
+}

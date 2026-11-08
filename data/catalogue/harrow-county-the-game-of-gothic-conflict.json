@@ -1,0 +1,27 @@
+{
+  "id": "harrow-county-the-game-of-gothic-conflict",
+  "name": "Harrow County: The Game of Gothic Conflict",
+  "playerRange": {
+    "min": 1,
+    "max": 3
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 45,
+    "max": 90
+  },
+  "minAge": 12,
+  "complexity": 3.6,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "confrontational",
+    "area-control",
+    "tactical",
+    "dramatic",
+    "horror"
+  ],
+  "bggId": 360899
+}

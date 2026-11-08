@@ -1,0 +1,27 @@
+{
+  "id": "the-hunt",
+  "name": "The Hunt",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 45,
+    "max": 60
+  },
+  "minAge": 12,
+  "complexity": 2.3,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "hidden-movement",
+    "wargame",
+    "tense",
+    "tactical",
+    "historical"
+  ],
+  "bggId": 376223
+}

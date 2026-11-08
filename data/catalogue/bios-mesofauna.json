@@ -1,0 +1,27 @@
+{
+  "id": "bios-mesofauna",
+  "name": "Bios: Mesofauna",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    3
+  ],
+  "playTime": {
+    "min": 90,
+    "max": 120
+  },
+  "minAge": 14,
+  "complexity": 3.6,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "strategic",
+    "crunchy",
+    "area-control",
+    "slow-burn",
+    "nature"
+  ],
+  "bggId": 318450
+}

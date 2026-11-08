@@ -1,0 +1,26 @@
+{
+  "id": "barbecubes",
+  "name": "Barbecubes",
+  "playerRange": {
+    "min": 2,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    3
+  ],
+  "playTime": {
+    "min": 3,
+    "max": 15
+  },
+  "minAge": 8,
+  "complexity": 1.0,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "dexterity",
+    "filler",
+    "funny",
+    "party"
+  ],
+  "bggId": 393114
+}

@@ -1,0 +1,27 @@
+{
+  "id": "the-white-castle-duel",
+  "name": "The White Castle Duel",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 10,
+  "complexity": 2.7,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "tactical",
+    "combo-heavy",
+    "indirect",
+    "crunchy",
+    "historical"
+  ],
+  "bggId": 438936
+}
