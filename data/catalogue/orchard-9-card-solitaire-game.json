@@ -1,0 +1,26 @@
+{
+  "id": "orchard-9-card-solitaire-game",
+  "name": "Orchard: 9 card solitaire game",
+  "playerRange": {
+    "min": 1,
+    "max": 1
+  },
+  "bestPlayerCounts": [
+    1
+  ],
+  "playTime": {
+    "min": 10,
+    "max": 10
+  },
+  "minAge": 8,
+  "complexity": 1.2,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "puzzly",
+    "relaxing",
+    "filler",
+    "nature"
+  ],
+  "bggId": 245487
+}

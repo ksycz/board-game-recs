@@ -1,0 +1,29 @@
+{
+  "id": "tussie-mussie",
+  "name": "Tussie Mussie",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 20
+  },
+  "minAge": 8,
+  "complexity": 1.2,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "bluffing",
+    "set-collection",
+    "cosy",
+    "beautiful",
+    "filler",
+    "nature"
+  ],
+  "bggId": 257614
+}

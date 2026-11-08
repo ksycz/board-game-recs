@@ -1,0 +1,29 @@
+{
+  "id": "three-sisters",
+  "name": "Three Sisters",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 60
+  },
+  "minAge": 10,
+  "complexity": 2.6,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "roll-and-write",
+    "engine-building",
+    "combo-heavy",
+    "multiplayer-solitaire",
+    "cosy",
+    "nature"
+  ],
+  "bggId": 291845
+}

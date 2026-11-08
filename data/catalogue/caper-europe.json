@@ -1,0 +1,27 @@
+{
+  "id": "caper-europe",
+  "name": "Caper: Europe",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 25,
+    "max": 35
+  },
+  "minAge": 10,
+  "complexity": 2.1,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "drafting",
+    "set-collection",
+    "area-control",
+    "combo-heavy",
+    "tactical"
+  ],
+  "bggId": 328565
+}

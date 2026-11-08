@@ -1,0 +1,29 @@
+{
+  "id": "knarr",
+  "name": "Knarr",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 10,
+  "complexity": 1.9,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "tableau-building",
+    "engine-building",
+    "combo-heavy",
+    "set-collection",
+    "quick-turns",
+    "historical"
+  ],
+  "bggId": 379629
+}

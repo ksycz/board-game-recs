@@ -1,0 +1,27 @@
+{
+  "id": "kluster",
+  "name": "Kluster",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    3
+  ],
+  "playTime": {
+    "min": 10,
+    "max": 20
+  },
+  "minAge": 14,
+  "complexity": 1.0,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "dexterity",
+    "tense",
+    "funny",
+    "party",
+    "filler"
+  ],
+  "bggId": 277458
+}

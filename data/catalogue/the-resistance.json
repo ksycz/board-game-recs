@@ -1,0 +1,29 @@
+{
+  "id": "the-resistance",
+  "name": "The Resistance",
+  "playerRange": {
+    "min": 5,
+    "max": 10
+  },
+  "bestPlayerCounts": [
+    7,
+    8
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 13,
+  "complexity": 1.6,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "social-deduction",
+    "traitor",
+    "bluffing",
+    "team-based",
+    "party",
+    "tense",
+    "sci-fi"
+  ]
+}

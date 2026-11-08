@@ -1,0 +1,29 @@
+{
+  "id": "gloomhaven",
+  "name": "Gloomhaven",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 120
+  },
+  "minAge": 14,
+  "complexity": 3.9,
+  "setupEffort": "long",
+  "tableSpace": "large",
+  "tags": [
+    "cooperative",
+    "campaign",
+    "tactical",
+    "hand-management",
+    "crunchy",
+    "analysis-paralysis",
+    "fantasy"
+  ]
+}

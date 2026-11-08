@@ -1,0 +1,30 @@
+{
+  "id": "throw-throw-burrito",
+  "name": "Throw Throw Burrito",
+  "playerRange": {
+    "min": 2,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    4,
+    5,
+    6
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 15
+  },
+  "minAge": 7,
+  "complexity": 1.1,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "dexterity",
+    "real-time",
+    "set-collection",
+    "party",
+    "chaotic",
+    "funny"
+  ],
+  "bggId": 274533
+}

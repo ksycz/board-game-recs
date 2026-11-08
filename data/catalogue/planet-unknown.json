@@ -1,0 +1,30 @@
+{
+  "id": "planet-unknown",
+  "name": "Planet Unknown",
+  "playerRange": {
+    "min": 1,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    2,
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 80
+  },
+  "minAge": 10,
+  "complexity": 2.3,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "tile-laying",
+    "puzzly",
+    "combo-heavy",
+    "simultaneous",
+    "multiplayer-solitaire",
+    "sci-fi"
+  ],
+  "bggId": 258779
+}

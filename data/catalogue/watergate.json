@@ -1,0 +1,27 @@
+{
+  "id": "watergate",
+  "name": "Watergate",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 60
+  },
+  "minAge": 12,
+  "complexity": 2.3,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "hand-management",
+    "tactical",
+    "confrontational",
+    "tense",
+    "historical"
+  ],
+  "bggId": 274364
+}

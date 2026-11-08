@@ -1,0 +1,27 @@
+{
+  "id": "skulls-of-sedlec",
+  "name": "Skulls of Sedlec",
+  "playerRange": {
+    "min": 2,
+    "max": 3
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 20
+  },
+  "minAge": 8,
+  "complexity": 1.2,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "drafting",
+    "set-collection",
+    "puzzly",
+    "filler",
+    "historical"
+  ],
+  "bggId": 303553
+}

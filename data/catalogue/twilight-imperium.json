@@ -1,0 +1,30 @@
+{
+  "id": "twilight-imperium",
+  "name": "Twilight Imperium",
+  "playerRange": {
+    "min": 3,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    6
+  ],
+  "playTime": {
+    "min": 240,
+    "max": 480
+  },
+  "minAge": 14,
+  "complexity": 4.3,
+  "setupEffort": "long",
+  "tableSpace": "large",
+  "tags": [
+    "area-control",
+    "negotiation",
+    "confrontational",
+    "strategic",
+    "dramatic",
+    "slow-burn",
+    "downtime",
+    "analysis-paralysis",
+    "sci-fi"
+  ]
+}

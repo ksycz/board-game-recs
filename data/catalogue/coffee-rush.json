@@ -1,0 +1,28 @@
+{
+  "id": "coffee-rush",
+  "name": "Coffee Rush",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 8,
+  "complexity": 1.8,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "puzzly",
+    "set-collection",
+    "quick-turns",
+    "cosy",
+    "newcomer-friendly"
+  ],
+  "bggId": 377061
+}

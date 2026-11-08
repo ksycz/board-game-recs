@@ -1,0 +1,28 @@
+{
+  "id": "scout",
+  "name": "SCOUT",
+  "playerRange": {
+    "min": 2,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    4,
+    5
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 20
+  },
+  "minAge": 9,
+  "complexity": 1.4,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "hand-management",
+    "numbers",
+    "tactical",
+    "filler",
+    "easy-to-learn-hard-to-master"
+  ],
+  "bggId": 291453
+}

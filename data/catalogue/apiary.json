@@ -1,0 +1,27 @@
+{
+  "id": "apiary",
+  "name": "Apiary",
+  "playerRange": {
+    "min": 1,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    3
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 90
+  },
+  "minAge": 12,
+  "complexity": 3.0,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "worker-placement",
+    "engine-building",
+    "combo-heavy",
+    "strategic",
+    "sci-fi"
+  ],
+  "bggId": 400314
+}

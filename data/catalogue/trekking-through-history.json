@@ -1,0 +1,28 @@
+{
+  "id": "trekking-through-history",
+  "name": "Trekking Through History",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 60
+  },
+  "minAge": 10,
+  "complexity": 1.8,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "set-collection",
+    "puzzly",
+    "relaxing",
+    "newcomer-friendly",
+    "historical"
+  ],
+  "bggId": 353288
+}
