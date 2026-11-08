@@ -31,7 +31,7 @@ export interface Game {
   bggId?: number;
 }
 
-const REQUIRED_FIELDS = [
+export const REQUIRED_FIELDS = [
   "id",
   "name",
   "playerRange",
