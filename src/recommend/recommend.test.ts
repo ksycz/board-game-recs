@@ -131,7 +131,13 @@ describe("Fit", () => {
 describe("Variety", () => {
   test("at most 2 of the top 5 are near-identical to each other", () => {
     const clones = Array.from({ length: 6 }, (_, i) => aGame(`clone-${i}`, { tags: ["puzzly", "relaxing", "tile-laying"] }));
-    const others = ["alpha", "beta", "gamma"].map((id) => aGame(id, { tags: ["relaxing"] }));
+    // The three others must differ from each other too, or they would be near-identical as well
+    // and no valid top 5 could exist (fixed after approval; see PR #11).
+    const others = [
+      aGame("alpha", { tags: ["relaxing", "beautiful"] }),
+      aGame("beta", { tags: ["relaxing", "cosy"] }),
+      aGame("gamma", { tags: ["relaxing", "nature"] }),
+    ];
     const member = {
       verdicts: [{ game: "owned", verdict: "love" as const, reasonTags: ["puzzly", "relaxing", "tile-laying"] }],
       collection: ["owned"],
