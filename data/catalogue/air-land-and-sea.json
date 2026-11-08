@@ -1,0 +1,28 @@
+{
+  "id": "air-land-and-sea",
+  "name": "Air, Land, & Sea",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 30
+  },
+  "minAge": 14,
+  "complexity": 1.8,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "hand-management",
+    "bluffing",
+    "tactical",
+    "confrontational",
+    "filler",
+    "historical"
+  ],
+  "bggId": 247367
+}

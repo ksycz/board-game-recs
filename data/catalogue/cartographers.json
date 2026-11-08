@@ -1,0 +1,29 @@
+{
+  "id": "cartographers",
+  "name": "Cartographers",
+  "playerRange": {
+    "min": 1,
+    "max": 100
+  },
+  "bestPlayerCounts": [
+    2,
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 45
+  },
+  "minAge": 10,
+  "complexity": 1.9,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "roll-and-write",
+    "puzzly",
+    "simultaneous",
+    "multiplayer-solitaire",
+    "newcomer-friendly",
+    "fantasy"
+  ]
+}

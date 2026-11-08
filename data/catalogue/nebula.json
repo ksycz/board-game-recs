@@ -1,0 +1,28 @@
+{
+  "id": "nebula",
+  "name": "Nebula",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 40,
+    "max": 40
+  },
+  "minAge": 8,
+  "complexity": 2.0,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "puzzly",
+    "push-your-luck",
+    "multiplayer-solitaire",
+    "relaxing",
+    "sci-fi"
+  ],
+  "bggId": 374982
+}

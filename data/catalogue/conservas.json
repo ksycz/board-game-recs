@@ -1,0 +1,26 @@
+{
+  "id": "conservas",
+  "name": "Conservas",
+  "playerRange": {
+    "min": 1,
+    "max": 1
+  },
+  "bestPlayerCounts": [
+    1
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 45
+  },
+  "minAge": 10,
+  "complexity": 2.3,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "push-your-luck",
+    "puzzly",
+    "tense",
+    "economic"
+  ],
+  "bggId": 402024
+}

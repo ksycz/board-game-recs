@@ -1,0 +1,28 @@
+{
+  "id": "meadow",
+  "name": "Meadow",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 90
+  },
+  "minAge": 10,
+  "complexity": 2.3,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "set-collection",
+    "tableau-building",
+    "combo-heavy",
+    "relaxing",
+    "beautiful",
+    "nature"
+  ],
+  "bggId": 314491
+}

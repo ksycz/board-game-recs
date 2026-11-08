@@ -1,0 +1,28 @@
+{
+  "id": "radlands",
+  "name": "Radlands",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 40
+  },
+  "minAge": 14,
+  "complexity": 2.3,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "confrontational",
+    "tactical",
+    "hand-management",
+    "combo-heavy",
+    "tense",
+    "sci-fi"
+  ],
+  "bggId": 329082
+}

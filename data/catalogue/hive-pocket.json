@@ -1,0 +1,27 @@
+{
+  "id": "hive-pocket",
+  "name": "Hive Pocket",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 20
+  },
+  "minAge": 9,
+  "complexity": 2.2,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "abstract",
+    "tactical",
+    "confrontational",
+    "easy-to-learn-hard-to-master",
+    "filler"
+  ],
+  "bggId": 154597
+}

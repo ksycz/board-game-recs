@@ -1,0 +1,27 @@
+{
+  "id": "endeavor-deep-sea",
+  "name": "Endeavor: Deep Sea",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 120
+  },
+  "minAge": 14,
+  "complexity": 2.9,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "strategic",
+    "combo-heavy",
+    "cooperative",
+    "beautiful",
+    "nature"
+  ]
+}

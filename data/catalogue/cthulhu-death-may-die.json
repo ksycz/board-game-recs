@@ -1,0 +1,28 @@
+{
+  "id": "cthulhu-death-may-die",
+  "name": "Cthulhu: Death May Die",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 90,
+    "max": 120
+  },
+  "minAge": 14,
+  "complexity": 2.5,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "cooperative",
+    "luck-heavy",
+    "dramatic",
+    "tactical",
+    "horror"
+  ],
+  "bggId": 253344
+}

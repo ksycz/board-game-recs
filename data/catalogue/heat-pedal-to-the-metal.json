@@ -1,0 +1,29 @@
+{
+  "id": "heat-pedal-to-the-metal",
+  "name": "Heat: Pedal to the Metal",
+  "playerRange": {
+    "min": 1,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    5,
+    6
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 60
+  },
+  "minAge": 10,
+  "complexity": 2.2,
+  "setupEffort": "quick",
+  "tableSpace": "large",
+  "tags": [
+    "hand-management",
+    "push-your-luck",
+    "tense",
+    "tactical",
+    "simultaneous",
+    "newcomer-friendly"
+  ],
+  "bggId": 366013
+}
