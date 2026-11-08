@@ -1,0 +1,10 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/data/catalogue/*.json"
+      ],
+      "url": "./data/schemas/game.schema.json"
+    }
+  ]
+}

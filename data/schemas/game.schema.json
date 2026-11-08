@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "game.schema.json",
+  "title": "Game",
+  "description": "One entry in the Catalogue (CONTEXT.md: Game). Editor help only: the Catalogue checks in src/catalogue/ are the source of truth, and tests keep this Schema in step with them.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "playerRange",
+    "bestPlayerCounts",
+    "playTime",
+    "minAge",
+    "complexity",
+    "setupEffort",
+    "tableSpace",
+    "tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Lower-case kebab-case; the file must be named <id>.json."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The Game's published name."
+    },
+    "playerRange": {
+      "type": "object",
+      "description": "Player Range: player counts the box supports.",
+      "required": [
+        "min",
+        "max"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "min": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "bestPlayerCounts": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "description": "Best Player Count: counts within the Player Range at which the Game plays well; may skip counts, e.g. [2, 4]."
+    },
+    "playTime": {
+      "type": "object",
+      "description": "Play time in minutes.",
+      "required": [
+        "min",
+        "max"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "min": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "minAge": {
+      "type": "integer",
+      "minimum": 3,
+      "maximum": 18,
+      "description": "Minimum age from the box."
+    },
+    "complexity": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Complexity on our own 1–5 scale; decimals allowed."
+    },
+    "setupEffort": {
+      "enum": [
+        "quick",
+        "medium",
+        "long"
+      ],
+      "description": "Setup Effort: quick (open and play, under ~5 min), medium or long."
+    },
+    "tableSpace": {
+      "enum": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "description": "Table Space the Game needs when laid out."
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Tags from the Tag Vocabulary (data/tags.json).",
+      "items": {
+        "enum": [
+          "relaxing",
+          "tense",
+          "chaotic",
+          "funny",
+          "dramatic",
+          "puzzly",
+          "luck-heavy",
+          "strategic",
+          "crunchy",
+          "tactical",
+          "beautiful",
+          "cosy",
+          "easy-to-learn-hard-to-master",
+          "newcomer-friendly",
+          "party",
+          "modern-design",
+          "multiplayer-solitaire",
+          "indirect",
+          "confrontational",
+          "cooperative",
+          "team-based",
+          "negotiation",
+          "bluffing",
+          "social-deduction",
+          "traitor",
+          "revealing",
+          "player-elimination",
+          "engine-building",
+          "tableau-building",
+          "deck-building",
+          "worker-placement",
+          "tile-laying",
+          "drafting",
+          "set-collection",
+          "area-control",
+          "roll-and-write",
+          "push-your-luck",
+          "trick-taking",
+          "hand-management",
+          "route-building",
+          "word-guessing",
+          "real-time",
+          "dexterity",
+          "hidden-movement",
+          "combo-heavy",
+          "numbers",
+          "auction",
+          "abstract",
+          "campaign",
+          "nature",
+          "fantasy",
+          "sci-fi",
+          "historical",
+          "horror",
+          "mystery",
+          "wargame",
+          "economic",
+          "filler",
+          "quick-turns",
+          "downtime",
+          "analysis-paralysis",
+          "simultaneous",
+          "slow-burn"
+        ],
+        "enumDescriptions": [
+          "Feel: Low stress; nobody minds a slow turn",
+          "Feel: Every decision matters and the pressure builds",
+          "Feel: Lots happens that nobody fully controls",
+          "Feel: Laughter is a big part of the fun",
+          "Feel: Big swings and memorable moments",
+          "Feel: Working out the best move is the main joy",
+          "Feel: Dice or card draws decide a lot",
+          "Feel: Long-term planning is rewarded; luck matters little",
+          "Feel: Tight, meaty decisions: resources are scarce and every choice is a hard trade-off",
+          "Feel: The best move depends on the situation right now; you adapt turn by turn",
+          "Feel: Art and components are a big part of the appeal",
+          "Feel: Warm, gentle and charming; a pleasant place to spend an evening",
+          "Feel: Rules fit in a few minutes, but playing well takes many games",
+          "Feel: Works well for people new to modern board games: familiar ideas, few exceptions, quick to start",
+          "Feel: Built for a big, lively group; the fun is in the people more than the board",
+          "Feel: Clean, contemporary graphic design: clear icons and layout, easy to read at a glance",
+          "Interaction: Everyone mostly builds their own thing, with little effect on each other",
+          "Interaction: You compete by taking what others want or blocking them",
+          "Interaction: You directly attack or harm other players",
+          "Interaction: Everyone wins or loses together",
+          "Interaction: Two teams play against each other",
+          "Interaction: Deals and trades between players drive the game",
+          "Interaction: Hiding what you have or intend, and calling others' bluffs",
+          "Interaction: Working out who is secretly on which side",
+          "Interaction: One or more players may secretly be working against the group",
+          "Interaction: You learn how the other players think",
+          "Interaction: Players can be knocked out before the game ends",
+          "Mechanics: Early choices make later turns more powerful",
+          "Mechanics: You build a personal display of cards in front of you whose effects work together",
+          "Mechanics: You improve your own deck of cards as you play",
+          "Mechanics: You place pieces to claim actions others then can't take",
+          "Mechanics: You place tiles to build a map or pattern",
+          "Mechanics: You pick cards or tiles from a shared selection, then pass on the rest",
+          "Mechanics: You score by gathering matching or complete sets",
+          "Mechanics: You fight for majority in regions of a map",
+          "Mechanics: You roll dice and mark choices on your own sheet",
+          "Mechanics: Keep going for more, or stop before you lose it all",
+          "Mechanics: Players each play a card and the best one wins the trick",
+          "Mechanics: Choosing when to play which card from your hand is the key skill",
+          "Mechanics: You connect places on a map",
+          "Mechanics: Clues, words or pictures that others must guess",
+          "Mechanics: Everyone plays at once, against a clock or each other",
+          "Mechanics: Physical skill: flicking, stacking, balancing",
+          "Mechanics: One side moves secretly on the map; the others track them down from clues",
+          "Mechanics: Chaining effects together for big, satisfying turns",
+          "Mechanics: Arithmetic and number puzzles are at the heart of the game",
+          "Mechanics: Players bid against each other for items, turn order or actions",
+          "Mechanics: Little or no theme; the pieces, shapes and rules *are* the game",
+          "Mechanics: A story or progress carries over across several sessions",
+          "Theme: Animals, plants, landscapes",
+          "Theme: Magic, monsters, mythical worlds",
+          "Theme: Space, future technology, aliens",
+          "Theme: Real periods and places",
+          "Theme: Dark, creepy or scary settings",
+          "Theme: Detective work and solving a case",
+          "Theme: Military conflict is the subject, often with maps and units",
+          "Theme: Money, trade, markets, production",
+          "Pace: A short game (about 10–20 minutes) to play between bigger ones or on a coffee break",
+          "Pace: Turns are short; there's little waiting for others",
+          "Pace: You may wait a while between your turns",
+          "Pace: So many options each turn that some players freeze and the game slows down",
+          "Pace: Everyone takes their turn at the same time",
+          "Pace: The game builds up slowly and the payoff comes late"
+        ]
+      }
+    },
+    "bggId": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Optional BoardGameGeek id, only for matching later (ADR 0001)."
+    }
+  }
+}
