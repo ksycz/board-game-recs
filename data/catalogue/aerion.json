@@ -1,0 +1,26 @@
+{
+  "id": "aerion",
+  "name": "Aerion",
+  "playerRange": {
+    "min": 1,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    1
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 30
+  },
+  "minAge": 10,
+  "complexity": 1.9,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "cooperative",
+    "puzzly",
+    "tense",
+    "filler"
+  ],
+  "bggId": 267127
+}

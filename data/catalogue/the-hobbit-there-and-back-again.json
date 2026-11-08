@@ -1,0 +1,27 @@
+{
+  "id": "the-hobbit-there-and-back-again",
+  "name": "The Hobbit: There & Back Again",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 10,
+  "complexity": 1.8,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "drafting",
+    "route-building",
+    "campaign",
+    "newcomer-friendly",
+    "fantasy"
+  ],
+  "bggId": 436215
+}

@@ -1,0 +1,27 @@
+{
+  "id": "leaf",
+  "name": "Leaf",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 45
+  },
+  "minAge": 10,
+  "complexity": 2.0,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "set-collection",
+    "beautiful",
+    "relaxing",
+    "nature"
+  ],
+  "bggId": 368676
+}

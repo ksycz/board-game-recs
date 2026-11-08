@@ -1,0 +1,29 @@
+{
+  "id": "night-at-the-zoo",
+  "name": "Night at the Zoo",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 10,
+  "complexity": 2.1,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "drafting",
+    "tile-laying",
+    "route-building",
+    "puzzly",
+    "multiplayer-solitaire",
+    "nature"
+  ],
+  "bggId": 457412
+}

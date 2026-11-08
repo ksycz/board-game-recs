@@ -1,0 +1,27 @@
+{
+  "id": "land-vs-sea",
+  "name": "Land vs Sea",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 40
+  },
+  "minAge": 8,
+  "complexity": 1.7,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "tile-laying",
+    "puzzly",
+    "indirect",
+    "newcomer-friendly",
+    "nature"
+  ],
+  "bggId": 336929
+}

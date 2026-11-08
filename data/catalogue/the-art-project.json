@@ -1,0 +1,28 @@
+{
+  "id": "the-art-project",
+  "name": "The A.R.T. Project",
+  "playerRange": {
+    "min": 1,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    2,
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 40,
+    "max": 40
+  },
+  "minAge": 12,
+  "complexity": 2.2,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "cooperative",
+    "tense",
+    "luck-heavy",
+    "route-building"
+  ],
+  "bggId": 378356
+}

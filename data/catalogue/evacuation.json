@@ -1,0 +1,29 @@
+{
+  "id": "evacuation",
+  "name": "Evacuation",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 150
+  },
+  "minAge": 12,
+  "complexity": 4.0,
+  "setupEffort": "long",
+  "tableSpace": "large",
+  "tags": [
+    "crunchy",
+    "strategic",
+    "economic",
+    "analysis-paralysis",
+    "slow-burn",
+    "sci-fi"
+  ],
+  "bggId": 382843
+}

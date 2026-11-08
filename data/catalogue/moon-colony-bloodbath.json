@@ -1,0 +1,28 @@
+{
+  "id": "moon-colony-bloodbath",
+  "name": "Moon Colony Bloodbath",
+  "playerRange": {
+    "min": 1,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    4
+  ],
+  "playTime": {
+    "min": 45,
+    "max": 90
+  },
+  "minAge": 14,
+  "complexity": 2.1,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "tableau-building",
+    "simultaneous",
+    "multiplayer-solitaire",
+    "tense",
+    "funny",
+    "sci-fi"
+  ],
+  "bggId": 425549
+}

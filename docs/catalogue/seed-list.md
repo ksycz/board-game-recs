@@ -1,6 +1,6 @@
 # Catalogue seed list
 
-> **Status: REVIEWED** with the Admin on 2026-10-19. Next step: Claude drafts a Catalogue entry for each Game (Player Range, Best Player Count, play time, minimum age, Complexity, Setup Effort, Table Space, Tags) as data files, reviewed in a separate pull request.
+> **Status: DONE.** Reviewed with the Admin on 2026-10-19; all 164 Games have Catalogue entries in `data/catalogue/` (batches 1–5, PRs #5, #7, #8, #9 and #10).
 
 The Catalogue starts with **164 Games**, the full size the spec planned (~150). They come from:
 
