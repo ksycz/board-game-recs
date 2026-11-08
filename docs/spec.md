@@ -122,7 +122,7 @@ Box art and publisher photos are copyrighted, so v1 shows no images of Games. Im
    These newcomers get a soft Complexity cap (≤ 2.5), on by default and easy to remove.
 4. **Usual Group Size:** solo / 2 / 3–4 / 5+. It becomes the default player-count Constraint.
 
-Every Interview answer is a **Verdict**. There is no separate "profile" data.
+Every Interview answer about a Game is a **Verdict**. Mood answers are **Mood Answers**: Tags the Member likes or dislikes, used by Fit like the Tags of a Reason. There is no other "profile" data.
 
 ## 6. Learning after the Interview
 
