@@ -1,4 +1,4 @@
-import fc from "fast-check";
+import * as fc from "fast-check";
 import { describe, expect, test } from "vitest";
 import type { Game } from "../catalogue/catalogue";
 import { recommend, type BuyRequest, type Verdict } from "./recommend";
@@ -20,7 +20,9 @@ const gameArb: fc.Arbitrary<Game> = fc
   })
   .map(({ min, span, time, minAge, complexity, tags }) => ({ min, max: min + span, time, minAge, complexity, tags }))
   .chain((g) =>
-    fc.uniqueArray(fc.integer({ min: g.min, max: g.max }), { minLength: 1, maxLength: 3 }).map((best) => ({ ...g, best })),
+    fc
+      .uniqueArray(fc.integer({ min: g.min, max: g.max }), { minLength: 1, maxLength: 3 })
+      .map((best) => ({ min: g.min, max: g.max, time: g.time, minAge: g.minAge, complexity: g.complexity, tags: g.tags, best })),
   )
   .map((g) =>
     aGame("x", {
@@ -98,9 +100,11 @@ describe("Buy-mode rules hold for any input", () => {
         const { maxPlayTime, maxComplexity } = r.occasion;
         for (const rec of recommend(r)) {
           expect(rec.reasons.length).toBeGreaterThan(0);
-          const kinds = rec.relaxations.map((x) => x.kind);
-          if (maxPlayTime !== undefined && rec.game.playTime.min > maxPlayTime) expect(kinds).toContain("play-time");
-          if (maxComplexity !== undefined && rec.game.complexity > maxComplexity) expect(kinds).toContain("complexity");
+          const broken = [
+            ...(maxPlayTime !== undefined && rec.game.playTime.min > maxPlayTime ? ["play-time"] : []),
+            ...(maxComplexity !== undefined && rec.game.complexity > maxComplexity ? ["complexity"] : []),
+          ];
+          expect(rec.relaxations.map((x) => x.kind)).toEqual(expect.arrayContaining(broken));
         }
       }),
       runs,
