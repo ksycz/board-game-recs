@@ -1,0 +1,29 @@
+{
+  "id": "twilight-struggle",
+  "name": "Twilight Struggle",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 120,
+    "max": 180
+  },
+  "minAge": 13,
+  "complexity": 3.6,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "wargame",
+    "area-control",
+    "hand-management",
+    "confrontational",
+    "strategic",
+    "tense",
+    "slow-burn",
+    "historical"
+  ]
+}

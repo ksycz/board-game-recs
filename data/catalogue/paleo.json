@@ -1,0 +1,26 @@
+{
+  "id": "paleo",
+  "name": "Paleo",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 45,
+    "max": 60
+  },
+  "minAge": 10,
+  "complexity": 2.3,
+  "setupEffort": "medium",
+  "tableSpace": "medium",
+  "tags": [
+    "cooperative",
+    "tense",
+    "hand-management",
+    "historical"
+  ]
+}

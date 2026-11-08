@@ -1,0 +1,30 @@
+{
+  "id": "ark-nova",
+  "name": "Ark Nova",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 90,
+    "max": 150
+  },
+  "minAge": 14,
+  "complexity": 3.8,
+  "setupEffort": "long",
+  "tableSpace": "large",
+  "tags": [
+    "engine-building",
+    "tableau-building",
+    "combo-heavy",
+    "hand-management",
+    "strategic",
+    "crunchy",
+    "analysis-paralysis",
+    "nature"
+  ],
+  "bggId": 342942
+}

@@ -1,0 +1,29 @@
+{
+  "id": "flip-7",
+  "name": "Flip 7",
+  "playerRange": {
+    "min": 3,
+    "max": 18
+  },
+  "bestPlayerCounts": [
+    4,
+    5,
+    6
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 20
+  },
+  "minAge": 8,
+  "complexity": 1.0,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "push-your-luck",
+    "luck-heavy",
+    "numbers",
+    "party",
+    "funny",
+    "filler"
+  ]
+}

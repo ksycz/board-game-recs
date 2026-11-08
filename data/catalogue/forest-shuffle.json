@@ -1,0 +1,29 @@
+{
+  "id": "forest-shuffle",
+  "name": "Forest Shuffle",
+  "playerRange": {
+    "min": 2,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 40,
+    "max": 60
+  },
+  "minAge": 10,
+  "complexity": 2.2,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "tableau-building",
+    "combo-heavy",
+    "set-collection",
+    "hand-management",
+    "multiplayer-solitaire",
+    "nature"
+  ],
+  "bggId": 391163
+}

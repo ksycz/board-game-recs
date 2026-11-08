@@ -1,0 +1,27 @@
+{
+  "id": "7-wonders-duel",
+  "name": "7 Wonders Duel",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 10,
+  "complexity": 2.2,
+  "setupEffort": "medium",
+  "tableSpace": "medium",
+  "tags": [
+    "drafting",
+    "engine-building",
+    "set-collection",
+    "tactical",
+    "indirect",
+    "historical"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "scythe",
+  "name": "Scythe",
+  "playerRange": {
+    "min": 1,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    4
+  ],
+  "playTime": {
+    "min": 90,
+    "max": 115
+  },
+  "minAge": 14,
+  "complexity": 3.4,
+  "setupEffort": "long",
+  "tableSpace": "large",
+  "tags": [
+    "area-control",
+    "engine-building",
+    "strategic",
+    "confrontational",
+    "slow-burn",
+    "beautiful"
+  ],
+  "bggId": 169786
+}

@@ -1,0 +1,28 @@
+{
+  "id": "slay-the-spire-the-board-game",
+  "name": "Slay the Spire: The Board Game",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    1,
+    2
+  ],
+  "playTime": {
+    "min": 45,
+    "max": 90
+  },
+  "minAge": 12,
+  "complexity": 3.0,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "cooperative",
+    "deck-building",
+    "combo-heavy",
+    "tactical",
+    "campaign",
+    "fantasy"
+  ]
+}

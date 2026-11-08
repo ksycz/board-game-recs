@@ -1,0 +1,28 @@
+{
+  "id": "so-clover",
+  "name": "So Clover!",
+  "playerRange": {
+    "min": 3,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    4,
+    5
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 10,
+  "complexity": 1.2,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "cooperative",
+    "word-guessing",
+    "party",
+    "revealing",
+    "funny",
+    "newcomer-friendly"
+  ]
+}

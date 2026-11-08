@@ -1,0 +1,29 @@
+{
+  "id": "ankh-gods-of-egypt",
+  "name": "Ankh: Gods of Egypt",
+  "playerRange": {
+    "min": 2,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 90,
+    "max": 90
+  },
+  "minAge": 12,
+  "complexity": 2.8,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "area-control",
+    "confrontational",
+    "dramatic",
+    "strategic",
+    "beautiful",
+    "fantasy"
+  ],
+  "bggId": 285967
+}

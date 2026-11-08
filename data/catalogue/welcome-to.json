@@ -1,0 +1,30 @@
+{
+  "id": "welcome-to",
+  "name": "Welcome To...",
+  "playerRange": {
+    "min": 1,
+    "max": 100
+  },
+  "bestPlayerCounts": [
+    2,
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 25,
+    "max": 25
+  },
+  "minAge": 10,
+  "complexity": 1.8,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "roll-and-write",
+    "numbers",
+    "simultaneous",
+    "puzzly",
+    "multiplayer-solitaire",
+    "newcomer-friendly"
+  ],
+  "bggId": 233867
+}

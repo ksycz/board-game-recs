@@ -1,0 +1,26 @@
+{
+  "id": "decrypto",
+  "name": "Decrypto",
+  "playerRange": {
+    "min": 3,
+    "max": 8
+  },
+  "bestPlayerCounts": [
+    4,
+    6
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 45
+  },
+  "minAge": 12,
+  "complexity": 1.8,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "team-based",
+    "word-guessing",
+    "party",
+    "tense"
+  ]
+}
