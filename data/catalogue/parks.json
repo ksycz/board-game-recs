@@ -1,0 +1,29 @@
+{
+  "id": "parks",
+  "name": "Parks",
+  "playerRange": {
+    "min": 1,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 40,
+    "max": 70
+  },
+  "minAge": 10,
+  "complexity": 2.1,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "set-collection",
+    "indirect",
+    "relaxing",
+    "beautiful",
+    "newcomer-friendly",
+    "nature"
+  ],
+  "bggId": 266524
+}

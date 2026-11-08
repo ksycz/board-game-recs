@@ -1,0 +1,28 @@
+{
+  "id": "for-sale",
+  "name": "For Sale",
+  "playerRange": {
+    "min": 3,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    5,
+    6
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 30
+  },
+  "minAge": 10,
+  "complexity": 1.2,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "auction",
+    "numbers",
+    "filler",
+    "newcomer-friendly",
+    "economic"
+  ],
+  "bggId": 172
+}

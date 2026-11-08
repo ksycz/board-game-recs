@@ -1,0 +1,29 @@
+{
+  "id": "arcs",
+  "name": "Arcs",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 120
+  },
+  "minAge": 14,
+  "complexity": 3.4,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "trick-taking",
+    "area-control",
+    "confrontational",
+    "tactical",
+    "dramatic",
+    "sci-fi"
+  ],
+  "bggId": 359871
+}

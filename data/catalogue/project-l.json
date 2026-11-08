@@ -1,0 +1,28 @@
+{
+  "id": "project-l",
+  "name": "Project L",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 40
+  },
+  "minAge": 8,
+  "complexity": 1.6,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "engine-building",
+    "puzzly",
+    "abstract",
+    "quick-turns",
+    "easy-to-learn-hard-to-master"
+  ],
+  "bggId": 260180
+}

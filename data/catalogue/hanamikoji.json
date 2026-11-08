@@ -1,0 +1,27 @@
+{
+  "id": "hanamikoji",
+  "name": "Hanamikoji",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 15
+  },
+  "minAge": 10,
+  "complexity": 1.6,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "hand-management",
+    "tactical",
+    "filler",
+    "beautiful",
+    "easy-to-learn-hard-to-master"
+  ],
+  "bggId": 158600
+}

@@ -1,0 +1,30 @@
+{
+  "id": "the-old-kings-crown",
+  "name": "The Old King's Crown",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 90
+  },
+  "minAge": 12,
+  "complexity": 3.5,
+  "setupEffort": "quick",
+  "tableSpace": "large",
+  "tags": [
+    "area-control",
+    "simultaneous",
+    "hand-management",
+    "bluffing",
+    "confrontational",
+    "strategic",
+    "beautiful"
+  ],
+  "bggId": 357873
+}

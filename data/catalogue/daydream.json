@@ -1,0 +1,30 @@
+{
+  "id": "daydream",
+  "name": "Daydream",
+  "playerRange": {
+    "min": 1,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    1,
+    2
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 8,
+  "complexity": 1.4,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "roll-and-write",
+    "numbers",
+    "simultaneous",
+    "puzzly",
+    "cosy",
+    "relaxing",
+    "multiplayer-solitaire"
+  ],
+  "bggId": 433283
+}

@@ -1,0 +1,27 @@
+{
+  "id": "jaipur",
+  "name": "Jaipur",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 12,
+  "complexity": 1.5,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "set-collection",
+    "hand-management",
+    "tactical",
+    "economic",
+    "easy-to-learn-hard-to-master"
+  ],
+  "bggId": 54043
+}

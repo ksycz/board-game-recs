@@ -1,0 +1,27 @@
+{
+  "id": "mindbug-first-contact",
+  "name": "Mindbug: First Contact",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 25
+  },
+  "minAge": 8,
+  "complexity": 1.9,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "confrontational",
+    "tactical",
+    "hand-management",
+    "filler",
+    "fantasy"
+  ],
+  "bggId": 345584
+}

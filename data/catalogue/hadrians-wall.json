@@ -1,0 +1,29 @@
+{
+  "id": "hadrians-wall",
+  "name": "Hadrian's Wall",
+  "playerRange": {
+    "min": 1,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 60
+  },
+  "minAge": 12,
+  "complexity": 2.8,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "roll-and-write",
+    "engine-building",
+    "combo-heavy",
+    "crunchy",
+    "simultaneous",
+    "multiplayer-solitaire",
+    "historical"
+  ]
+}

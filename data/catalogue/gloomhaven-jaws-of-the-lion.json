@@ -1,0 +1,28 @@
+{
+  "id": "gloomhaven-jaws-of-the-lion",
+  "name": "Gloomhaven: Jaws of the Lion",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 120
+  },
+  "minAge": 14,
+  "complexity": 3.6,
+  "setupEffort": "medium",
+  "tableSpace": "medium",
+  "tags": [
+    "cooperative",
+    "campaign",
+    "tactical",
+    "hand-management",
+    "crunchy",
+    "fantasy"
+  ],
+  "bggId": 291457
+}
