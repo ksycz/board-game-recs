@@ -1,0 +1,27 @@
+{
+  "id": "mysterium",
+  "name": "Mysterium",
+  "playerRange": {
+    "min": 2,
+    "max": 7
+  },
+  "bestPlayerCounts": [
+    5,
+    6
+  ],
+  "playTime": {
+    "min": 45,
+    "max": 45
+  },
+  "minAge": 10,
+  "complexity": 1.9,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "cooperative",
+    "revealing",
+    "party",
+    "beautiful",
+    "mystery"
+  ]
+}

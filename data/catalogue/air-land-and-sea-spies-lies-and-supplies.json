@@ -1,0 +1,27 @@
+{
+  "id": "air-land-and-sea-spies-lies-and-supplies",
+  "name": "Air, Land, & Sea: Spies, Lies, & Supplies",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 30
+  },
+  "minAge": 10,
+  "complexity": 1.9,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "hand-management",
+    "bluffing",
+    "tactical",
+    "confrontational",
+    "filler"
+  ],
+  "bggId": 358981
+}

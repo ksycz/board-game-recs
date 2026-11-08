@@ -1,0 +1,27 @@
+{
+  "id": "ticket-to-ride-europe",
+  "name": "Ticket to Ride: Europe",
+  "playerRange": {
+    "min": 2,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    4
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 60
+  },
+  "minAge": 8,
+  "complexity": 1.9,
+  "setupEffort": "quick",
+  "tableSpace": "large",
+  "tags": [
+    "route-building",
+    "set-collection",
+    "indirect",
+    "newcomer-friendly",
+    "historical"
+  ],
+  "bggId": 14996
+}

@@ -1,0 +1,29 @@
+{
+  "id": "kutna-hora-the-city-of-silver",
+  "name": "Kutná Hora: The City of Silver",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 90,
+    "max": 120
+  },
+  "minAge": 12,
+  "complexity": 3.3,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "tile-laying",
+    "economic",
+    "strategic",
+    "crunchy",
+    "indirect",
+    "historical"
+  ],
+  "bggId": 385610
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sprawlopolis",
+  "name": "Sprawlopolis",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    1
+  ],
+  "playTime": {
+    "min": 10,
+    "max": 20
+  },
+  "minAge": 8,
+  "complexity": 1.8,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "tile-laying",
+    "puzzly",
+    "cooperative",
+    "filler"
+  ],
+  "bggId": 251658
+}

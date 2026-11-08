@@ -1,0 +1,28 @@
+{
+  "id": "blitzkrieg-world-war-two-in-20-minutes",
+  "name": "Blitzkrieg!: World War Two in 20 Minutes",
+  "playerRange": {
+    "min": 1,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 20
+  },
+  "minAge": 12,
+  "complexity": 1.9,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "wargame",
+    "area-control",
+    "confrontational",
+    "tactical",
+    "filler",
+    "historical"
+  ],
+  "bggId": 258210
+}

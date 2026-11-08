@@ -1,0 +1,29 @@
+{
+  "id": "sea-salt-and-paper",
+  "name": "Sea Salt & Paper",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 45
+  },
+  "minAge": 8,
+  "complexity": 1.5,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "set-collection",
+    "push-your-luck",
+    "filler",
+    "cosy",
+    "beautiful",
+    "nature"
+  ],
+  "bggId": 367220
+}

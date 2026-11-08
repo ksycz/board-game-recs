@@ -1,0 +1,27 @@
+{
+  "id": "lost-cities",
+  "name": "Lost Cities",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 10,
+  "complexity": 1.5,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "hand-management",
+    "push-your-luck",
+    "numbers",
+    "set-collection",
+    "tactical",
+    "filler"
+  ]
+}

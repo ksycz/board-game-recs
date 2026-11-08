@@ -1,0 +1,28 @@
+{
+  "id": "the-red-cathedral",
+  "name": "The Red Cathedral",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 80
+  },
+  "minAge": 10,
+  "complexity": 2.8,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "strategic",
+    "crunchy",
+    "indirect",
+    "economic",
+    "historical"
+  ],
+  "bggId": 227224
+}

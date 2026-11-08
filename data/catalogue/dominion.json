@@ -1,0 +1,27 @@
+{
+  "id": "dominion",
+  "name": "Dominion",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 13,
+  "complexity": 2.4,
+  "setupEffort": "medium",
+  "tableSpace": "medium",
+  "tags": [
+    "deck-building",
+    "combo-heavy",
+    "engine-building",
+    "multiplayer-solitaire",
+    "easy-to-learn-hard-to-master"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "the-vale-of-eternity",
+  "name": "The Vale of Eternity",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 45
+  },
+  "minAge": 10,
+  "complexity": 2.1,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "drafting",
+    "tableau-building",
+    "engine-building",
+    "combo-heavy",
+    "beautiful",
+    "fantasy"
+  ],
+  "bggId": 385529
+}

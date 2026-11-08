@@ -1,0 +1,28 @@
+{
+  "id": "undaunted-north-africa",
+  "name": "Undaunted: North Africa",
+  "playerRange": {
+    "min": 2,
+    "max": 2
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 45,
+    "max": 60
+  },
+  "minAge": 12,
+  "complexity": 2.3,
+  "setupEffort": "medium",
+  "tableSpace": "medium",
+  "tags": [
+    "deck-building",
+    "wargame",
+    "tactical",
+    "confrontational",
+    "luck-heavy",
+    "historical"
+  ],
+  "bggId": 290359
+}

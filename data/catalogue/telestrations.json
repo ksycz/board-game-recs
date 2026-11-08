@@ -1,0 +1,28 @@
+{
+  "id": "telestrations",
+  "name": "Telestrations",
+  "playerRange": {
+    "min": 4,
+    "max": 8
+  },
+  "bestPlayerCounts": [
+    6,
+    7,
+    8
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 12,
+  "complexity": 1.1,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "party",
+    "funny",
+    "revealing",
+    "simultaneous",
+    "newcomer-friendly"
+  ]
+}

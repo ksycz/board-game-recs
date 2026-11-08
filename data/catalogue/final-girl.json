@@ -1,0 +1,26 @@
+{
+  "id": "final-girl",
+  "name": "Final Girl",
+  "playerRange": {
+    "min": 1,
+    "max": 1
+  },
+  "bestPlayerCounts": [
+    1
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 60
+  },
+  "minAge": 14,
+  "complexity": 2.8,
+  "setupEffort": "medium",
+  "tableSpace": "medium",
+  "tags": [
+    "tactical",
+    "tense",
+    "luck-heavy",
+    "horror"
+  ],
+  "bggId": 277659
+}

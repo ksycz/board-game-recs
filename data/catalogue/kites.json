@@ -1,0 +1,29 @@
+{
+  "id": "kites",
+  "name": "Kites",
+  "playerRange": {
+    "min": 2,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    4,
+    5
+  ],
+  "playTime": {
+    "min": 10,
+    "max": 10
+  },
+  "minAge": 8,
+  "complexity": 1.1,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "cooperative",
+    "real-time",
+    "chaotic",
+    "tense",
+    "party",
+    "filler"
+  ],
+  "bggId": 348096
+}
