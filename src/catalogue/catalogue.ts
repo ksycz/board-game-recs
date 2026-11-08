@@ -1,6 +1,6 @@
 import { readdir, readFile } from "node:fs/promises";
 import { isRecord, isWholeNumber, KEBAB_CASE, type Problem } from "./problems";
-import type { Tag } from "./tag-vocabulary";
+import { loadTagVocabulary, type Tag } from "./tag-vocabulary";
 
 export const SETUP_EFFORTS = ["quick", "medium", "long"] as const;
 export const TABLE_SPACES = ["small", "medium", "large"] as const;
@@ -198,3 +198,19 @@ export async function loadCatalogue(): Promise<CatalogueFile[]> {
     }),
   );
 }
+
+/**
+ * Loads the Catalogue and checks it against the Tag Vocabulary.
+ * Throws if any file has a problem, so callers only ever see valid Games.
+ */
+export async function loadGames(): Promise<Game[]> {
+  const [files, tags] = await Promise.all([loadCatalogue(), loadTagVocabulary()]);
+  const problems = validateCatalogueFiles(files, tags);
+  if (problems.length > 0) {
+    throw new Error(`The Catalogue has problems:\n${problems.map((p) => `- ${p.message}`).join("\n")}`);
+  }
+  return files.map((f) => f.data).filter(isCheckedGame);
+}
+
+/** Only for data that validateCatalogueFiles has already accepted. */
+const isCheckedGame = (data: unknown): data is Game => isRecord(data);
