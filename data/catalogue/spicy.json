@@ -1,0 +1,29 @@
+{
+  "id": "spicy",
+  "name": "Spicy",
+  "playerRange": {
+    "min": 2,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    4,
+    5
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 20
+  },
+  "minAge": 10,
+  "complexity": 1.3,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "bluffing",
+    "hand-management",
+    "party",
+    "funny",
+    "filler",
+    "beautiful"
+  ],
+  "bggId": 299169
+}

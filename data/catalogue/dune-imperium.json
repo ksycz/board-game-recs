@@ -1,0 +1,29 @@
+{
+  "id": "dune-imperium",
+  "name": "Dune: Imperium",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    3,
+    4
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 120
+  },
+  "minAge": 13,
+  "complexity": 3.1,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "worker-placement",
+    "deck-building",
+    "confrontational",
+    "strategic",
+    "tense",
+    "sci-fi"
+  ],
+  "bggId": 316554
+}

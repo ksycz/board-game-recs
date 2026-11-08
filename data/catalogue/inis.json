@@ -1,0 +1,28 @@
+{
+  "id": "inis",
+  "name": "Inis",
+  "playerRange": {
+    "min": 2,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    4
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 90
+  },
+  "minAge": 14,
+  "complexity": 2.9,
+  "setupEffort": "medium",
+  "tableSpace": "large",
+  "tags": [
+    "area-control",
+    "drafting",
+    "confrontational",
+    "negotiation",
+    "strategic",
+    "beautiful",
+    "fantasy"
+  ]
+}

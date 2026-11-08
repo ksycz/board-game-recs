@@ -1,0 +1,29 @@
+{
+  "id": "floriferous",
+  "name": "Floriferous",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    1,
+    2
+  ],
+  "playTime": {
+    "min": 20,
+    "max": 30
+  },
+  "minAge": 8,
+  "complexity": 1.7,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "set-collection",
+    "relaxing",
+    "cosy",
+    "beautiful",
+    "multiplayer-solitaire",
+    "nature"
+  ],
+  "bggId": 322622
+}

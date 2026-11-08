@@ -1,0 +1,29 @@
+{
+  "id": "trio",
+  "name": "Trio",
+  "playerRange": {
+    "min": 3,
+    "max": 6
+  },
+  "bestPlayerCounts": [
+    4,
+    5
+  ],
+  "playTime": {
+    "min": 15,
+    "max": 15
+  },
+  "minAge": 6,
+  "complexity": 1.1,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "set-collection",
+    "party",
+    "funny",
+    "filler",
+    "quick-turns",
+    "newcomer-friendly"
+  ],
+  "bggId": 352515
+}

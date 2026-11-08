@@ -1,0 +1,27 @@
+{
+  "id": "the-castles-of-burgundy",
+  "name": "The Castles of Burgundy",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2
+  ],
+  "playTime": {
+    "min": 60,
+    "max": 120
+  },
+  "minAge": 12,
+  "complexity": 3.0,
+  "setupEffort": "medium",
+  "tableSpace": "medium",
+  "tags": [
+    "tile-laying",
+    "strategic",
+    "tactical",
+    "combo-heavy",
+    "indirect"
+  ],
+  "bggId": 271320
+}

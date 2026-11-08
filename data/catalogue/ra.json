@@ -1,0 +1,27 @@
+{
+  "id": "ra",
+  "name": "Ra",
+  "playerRange": {
+    "min": 2,
+    "max": 5
+  },
+  "bestPlayerCounts": [
+    4,
+    5
+  ],
+  "playTime": {
+    "min": 45,
+    "max": 60
+  },
+  "minAge": 12,
+  "complexity": 2.3,
+  "setupEffort": "quick",
+  "tableSpace": "medium",
+  "tags": [
+    "auction",
+    "push-your-luck",
+    "set-collection",
+    "tense",
+    "historical"
+  ]
+}

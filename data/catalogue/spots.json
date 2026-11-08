@@ -1,0 +1,27 @@
+{
+  "id": "spots",
+  "name": "Spots",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 30
+  },
+  "minAge": 8,
+  "complexity": 1.3,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "push-your-luck",
+    "luck-heavy",
+    "cosy",
+    "filler"
+  ],
+  "bggId": 372559
+}

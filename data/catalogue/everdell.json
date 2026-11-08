@@ -1,0 +1,30 @@
+{
+  "id": "everdell",
+  "name": "Everdell",
+  "playerRange": {
+    "min": 1,
+    "max": 4
+  },
+  "bestPlayerCounts": [
+    2,
+    3
+  ],
+  "playTime": {
+    "min": 40,
+    "max": 80
+  },
+  "minAge": 13,
+  "complexity": 2.8,
+  "setupEffort": "long",
+  "tableSpace": "large",
+  "tags": [
+    "worker-placement",
+    "tableau-building",
+    "engine-building",
+    "combo-heavy",
+    "cosy",
+    "beautiful",
+    "nature"
+  ],
+  "bggId": 199792
+}

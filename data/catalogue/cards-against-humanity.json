@@ -1,0 +1,26 @@
+{
+  "id": "cards-against-humanity",
+  "name": "Cards Against Humanity",
+  "playerRange": {
+    "min": 4,
+    "max": 20
+  },
+  "bestPlayerCounts": [
+    6,
+    7,
+    8
+  ],
+  "playTime": {
+    "min": 30,
+    "max": 90
+  },
+  "minAge": 17,
+  "complexity": 1.0,
+  "setupEffort": "quick",
+  "tableSpace": "small",
+  "tags": [
+    "party",
+    "funny",
+    "newcomer-friendly"
+  ]
+}
