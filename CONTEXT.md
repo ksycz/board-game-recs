@@ -77,7 +77,7 @@ The questions a new Member answers so the app can learn their Taste. It adapts: 
 _Avoid_: onboarding, quiz, survey
 
 **Taste**:
-What a Member likes and dislikes in games: the sum of their Verdicts. Belongs to one Member.
+What a Member likes and dislikes in games: their Verdicts plus any Mood Answers. Belongs to one Member.
 _Avoid_: profile, preferences
 
 **Constraint**:
@@ -103,6 +103,10 @@ _Avoid_: default players
 **Verdict**:
 A Member's judgement of one Game: love, fine or dislike, optionally with a Reason. A Member has at most one Verdict per Game; a new one replaces the old. Interview answers, ratings after playing and ratings of a bought Game are all Verdicts. "Fine" means played without strong feeling.
 _Avoid_: rating, score, review
+
+**Mood Answer**:
+A newcomer's answer to one of the Interview's plain-language mood questions (e.g. "talking and laughing, or quietly focusing on your own plan?"), recorded as Tags the Member likes or dislikes. Mood Answers are part of Taste but are not Verdicts, because they are about no particular Game.
+_Avoid_: preference, survey answer
 
 **Not Interested**:
 A Member hiding a Recommended Game they have not played. It changes their Taste only if they give a Reason.
